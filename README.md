@@ -1,5 +1,7 @@
 # Inibla
 
+Inibla website built with Angular 8,
+design courtesy: Dawit Gorfu & Usman Umer & Emmon Moses.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.4.
 
 ## Development server
