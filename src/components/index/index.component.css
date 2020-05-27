@@ -1,0 +1,13 @@
+.ml-10 {
+  margin-left: 10px;
+}
+
+.pt-10 {
+  padding-top: 10px;
+}
+
+@media (max-width: 415px) {
+  .button-ml-10 {
+    margin-left: 85px !important;
+  }
+}
