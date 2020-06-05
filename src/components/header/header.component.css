@@ -9,7 +9,7 @@
 
 }
 
-.toolbar img { 
+.toolbar img {
   margin: 0 35px;
 
 }
@@ -26,6 +26,10 @@
 
 .spacer {
   flex: 1;
+}
+
+.inibla-title {
+  font-family: Comfortaa;
 }
 
 .cls-1 {
