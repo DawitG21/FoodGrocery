@@ -181,6 +181,10 @@ a:not([href]):hover {
   text-decoration: none;
 }
 
+p {
+  font-family: Comfortaa;
+}
+
 pre,
 code,
 kbd,
