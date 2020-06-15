@@ -581,6 +581,7 @@ mark,
 }
 
 .img-fluid {
+  /* max-width: 100%; */
   max-width: 100%;
   height: auto;
 }
@@ -1043,6 +1044,13 @@ pre code {
 
 .offset-11 {
   margin-left: 91.66667%;
+}
+
+@media (min-width: 1200px) {
+  .img-moses {
+    max-width: 140% !important;
+    height: auto;
+  }
 }
 
 @media (min-width: 576px) {
@@ -13359,28 +13367,28 @@ body:after {
 }
 
 .inibla-about1 .left-rider {
-  background: url("assets/images/w.JPG") no-repeat 0px 0px;
+  background: url("assets/images/y.png") no-repeat 0px 0px;
   background-size: cover;
   min-height: 100%;
   border-radius: var(--border-radius);
 }
 
 .inibla-about1 .right-rider {
-  background: url("assets/images/x.JPG") no-repeat 0px 0px;
+  background: url("assets/images/v.png") no-repeat 0px 0px;
   background-size: cover;
   min-height: 100%;
   border-radius: var(--border-radius);
 }
 
 .inibla-about1 .right-restaurant {
-  background: url("assets/images/z.JPG") no-repeat 0px 0px;
+  background: url("assets/images/y.png") no-repeat 0px 0px;
   background-size: cover;
   min-height: 100%;
   border-radius: var(--border-radius);
 }
 
 .inibla-about1 .left-restaurant {
-  background: url("assets/images/y.JPG") no-repeat 0px 0px;
+  background: url("assets/images/v.png") no-repeat 0px 0px;
   background-size: cover;
   min-height: 100%;
   border-radius: var(--border-radius);
@@ -14196,7 +14204,7 @@ section.w3-faqs {
 
 /* stats */
 section.w3-stats {
-  background: linear-gradient(to right, #343434, rgba(255, 226, 49, 0.06)), url("assets/images/stats.jpg") no-repeat center;
+  background: linear-gradient(to right, #343434, rgba(255, 226, 49, 0.06)), url("assets/images/v.png") no-repeat center;
   background-size: cover;
   position: relative;
   z-index: 1;
@@ -15277,6 +15285,7 @@ mark,
 }
 
 .img-fluid {
+  /* max-width: 100%; */
   max-width: 100%;
   height: auto;
 }
@@ -28055,28 +28064,28 @@ body:after {
 }
 
 .inibla-about1 .left-rider {
-  background: url("assets/images/w.JPG") no-repeat 0px 0px;
+  background: url("assets/images/y.png") no-repeat 0px 0px;
   background-size: cover;
   min-height: 100%;
   border-radius: var(--border-radius);
 }
 
 .inibla-about1 .right-rider {
-  background: url("assets/images/x.JPG") no-repeat 0px 0px;
+  background: url("assets/images/v.png") no-repeat 0px 0px;
   background-size: cover;
   min-height: 100%;
   border-radius: var(--border-radius);
 }
 
 .inibla-about1 .right-restaurant {
-  background: url("assets/images/z.JPG") no-repeat 0px 0px;
+  background: url("assets/images/y.png") no-repeat 0px 0px;
   background-size: cover;
   min-height: 100%;
   border-radius: var(--border-radius);
 }
 
 .inibla-about1 .left-restaurant {
-  background: url("assets/images/y.JPG") no-repeat 0px 0px;
+  background: url("assets/images/v.png") no-repeat 0px 0px;
   background-size: cover;
   min-height: 100%;
   border-radius: var(--border-radius);
@@ -28892,7 +28901,7 @@ section.w3-faqs {
 
 /* stats */
 section.w3-stats {
-  background: linear-gradient(to right, #343434, rgba(255, 226, 49, 0.06)), url("assets/images/stats.jpg") no-repeat center;
+  background: linear-gradient(to right, #343434, rgba(255, 226, 49, 0.06)), url("assets/images/v.png") no-repeat center;
   background-size: cover;
   position: relative;
   z-index: 1;

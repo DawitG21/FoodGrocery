@@ -3,7 +3,7 @@
    <header id="site-header" class="fixed-top">
      <div class="container">
        <nav class="navbar navbar-expand-lg navbar-dark stroke">
-         <a class="navbar-brand inibla-title" routerLink="/">
+         <a class="navbar-brand inibla-title" routerLink="/" (click)="topFunction()">
            <img src="assets/images/inibla_white.png" alt="inibla" title="inibla" class="logo-height" />inibla
          </a>
          <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
@@ -16,13 +16,13 @@
          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
            <ul class="navbar-nav ml-auto">
              <li class="nav-item @@about-active">
-               <a class="nav-link effect-3" routerLink="/about">About</a>
+               <a class="nav-link effect-3" routerLink="/about" (click)="topFunction()">About</a>
              </li>
              <li class="nav-item @@services-active">
-               <a class="nav-link effect-3" routerLink="/joinus">How It Works</a>
+               <a class="nav-link effect-3" routerLink="/joinus" (click)="topFunction()">How It Works</a>
              </li>
              <li class="nav-item @@services-active">
-               <a routerLink="/faq" class="nav-link effect-3">FAQ</a>
+               <a routerLink="/faq" class="nav-link effect-3" (click)="topFunction()">FAQ</a>
              </li>
              <li class="nav-item">
                <p href="#domain" class="domain nav-link effect-3 contact-p" data-toggle="modal" data-target="#DomainModal">
