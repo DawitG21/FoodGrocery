@@ -1046,9 +1046,14 @@ pre code {
   margin-left: 91.66667%;
 }
 
+.img-homepage {
+  padding-left: 40px !important;
+  /* padding-top: 20px; */
+}
+
 @media (min-width: 1200px) {
   .img-moses {
-    max-width: 140% !important;
+    max-width: 110% !important;
     height: auto;
   }
 }
@@ -12352,7 +12357,7 @@ ul.icon-rounded li a.social-link {
   top: 50%;
   margin-left: -40px;
   margin-top: -40px;
-  /* background: url("owl-video-play.png") no-repeat;  */
+  /* background: url("owl-video-plav.png") no-repeat;  */
   cursor: pointer;
   z-index: 1;
   -webkit-backface-visibility: hidden;
@@ -13353,21 +13358,21 @@ body:after {
 }
 
 .inibla-about1 .left-section {
-  background: url("assets/images/b.jpg") no-repeat 0px 0px;
+  background: url("assets/images/moses.png") no-repeat 0px 0px;
   background-size: cover;
   min-height: 100%;
   border-radius: var(--border-radius);
 }
 
 .inibla-about1 .right-section {
-  background: url("assets/images/c.jpg") no-repeat 0px 0px;
+  background: url("assets/images/osiro.png") no-repeat 0px 0px;
   background-size: cover;
   min-height: 100%;
   border-radius: var(--border-radius);
 }
 
 .inibla-about1 .left-rider {
-  background: url("assets/images/y.png") no-repeat 0px 0px;
+  background: url("assets/images/inibla.png") no-repeat 0px 0px;
   background-size: cover;
   min-height: 100%;
   border-radius: var(--border-radius);
@@ -13381,14 +13386,14 @@ body:after {
 }
 
 .inibla-about1 .right-restaurant {
-  background: url("assets/images/y.png") no-repeat 0px 0px;
+  background: url("assets/images/osiro.png") no-repeat 0px 0px;
   background-size: cover;
   min-height: 100%;
   border-radius: var(--border-radius);
 }
 
 .inibla-about1 .left-restaurant {
-  background: url("assets/images/v.png") no-repeat 0px 0px;
+  background: url("assets/images/emmon.png") no-repeat 0px 0px;
   background-size: cover;
   min-height: 100%;
   border-radius: var(--border-radius);
@@ -27049,7 +27054,7 @@ ul.icon-rounded li a.social-link {
   top: 50%;
   margin-left: -40px;
   margin-top: -40px;
-  /* background: url("owl-video-play.png") no-repeat;  */
+  /* background: url("owl-video-plav.png") no-repeat;  */
   cursor: pointer;
   z-index: 1;
   -webkit-backface-visibility: hidden;
@@ -28050,21 +28055,21 @@ body:after {
 }
 
 .inibla-about1 .left-section {
-  background: url("assets/images/b.jpg") no-repeat 0px 0px;
+  background: url("assets/images/moses.png") no-repeat 0px 0px;
   background-size: cover;
   min-height: 100%;
   border-radius: var(--border-radius);
 }
 
 .inibla-about1 .right-section {
-  background: url("assets/images/c.jpg") no-repeat 0px 0px;
+  background: url("assets/images/osiro.png") no-repeat 0px 0px;
   background-size: cover;
   min-height: 100%;
   border-radius: var(--border-radius);
 }
 
 .inibla-about1 .left-rider {
-  background: url("assets/images/y.png") no-repeat 0px 0px;
+  background: url("assets/images/inibla.png") no-repeat 0px 0px;
   background-size: cover;
   min-height: 100%;
   border-radius: var(--border-radius);
@@ -28078,14 +28083,14 @@ body:after {
 }
 
 .inibla-about1 .right-restaurant {
-  background: url("assets/images/y.png") no-repeat 0px 0px;
+  background: url("assets/images/osiro.png") no-repeat 0px 0px;
   background-size: cover;
   min-height: 100%;
   border-radius: var(--border-radius);
 }
 
 .inibla-about1 .left-restaurant {
-  background: url("assets/images/v.png") no-repeat 0px 0px;
+  background: url("assets/images/emmon.png") no-repeat 0px 0px;
   background-size: cover;
   min-height: 100%;
   border-radius: var(--border-radius);
