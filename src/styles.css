@@ -13115,7 +13115,7 @@ body:after {
 }
 
 .inibla-footers-20 .grids-content h4 {
-  font-size: 20px;
+  font-size: 14px;
   line-height: 30px;
   font-weight: 600;
   color: #eee;
@@ -13133,7 +13133,7 @@ body:after {
 }
 
 .inibla-footers-20 .grids-content p.contact-phone {
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 600;
   color: #eee;
 }
@@ -13160,7 +13160,7 @@ body:after {
 .inibla-footers-20 .columns p,
 .inibla-footers-20 .columns p a,
 .inibla-footers-20 .columns ul li a {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 25px;
   color: #bbb;
 }
@@ -13260,7 +13260,7 @@ body:after {
   }
 
   .inibla-footers-20 .grids-content p.contact-phone {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
@@ -13269,7 +13269,7 @@ body:after {
   .inibla-footers-20 .columns p,
   .inibla-footers-20 .columns ul li a,
   .inibla-footers-20 .columns li select {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .inibla-footers-20 .grids-content {
@@ -13298,11 +13298,11 @@ body:after {
   .inibla-footers-20 .columns li select,
   .inibla-footers-20 .grids-content p,
   .inibla-footers-20 .grids-content a p {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .inibla-footers-20 .grids-content h4 {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 28px;
     margin-bottom: 15px;
   }
@@ -27757,6 +27757,7 @@ body:after {
 .inibla-footers-20 {
   /*-- responsive design --*/
   /*-- //responsive design --*/
+  font-size: 14px !important;
 }
 
 .inibla-footers-20 .d-grid {
@@ -27812,7 +27813,7 @@ body:after {
 }
 
 .inibla-footers-20 .grids-content h4 {
-  font-size: 20px;
+  font-size: 14px;
   line-height: 30px;
   font-weight: 600;
   color: #eee;
@@ -27830,7 +27831,7 @@ body:after {
 }
 
 .inibla-footers-20 .grids-content p.contact-phone {
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 600;
   color: #eee;
 }
@@ -27857,7 +27858,7 @@ body:after {
 .inibla-footers-20 .columns p,
 .inibla-footers-20 .columns p a,
 .inibla-footers-20 .columns ul li a {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 25px;
   color: #bbb;
 }
@@ -27957,7 +27958,7 @@ body:after {
   }
 
   .inibla-footers-20 .grids-content p.contact-phone {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
@@ -27966,7 +27967,7 @@ body:after {
   .inibla-footers-20 .columns p,
   .inibla-footers-20 .columns ul li a,
   .inibla-footers-20 .columns li select {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .inibla-footers-20 .grids-content {
@@ -27995,11 +27996,11 @@ body:after {
   .inibla-footers-20 .columns li select,
   .inibla-footers-20 .grids-content p,
   .inibla-footers-20 .grids-content a p {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .inibla-footers-20 .grids-content h4 {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 28px;
     margin-bottom: 15px;
   }
