@@ -1,8 +1,14 @@
 .inibla-title {
-    font-family: Comfortaa;
-    margin-left: 70px;
+  font-family: Comfortaa;
+  margin-left: 70px;
+}
+
+.logo-height {
+  height: 80px;
+}
+
+@media (max-width: 768px) {
+  .device-640 {
+    padding-left: 53px;
   }
-  
-  .logo-height {
-    height: 80px;
-  }
+}

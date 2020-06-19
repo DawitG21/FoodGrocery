@@ -12,4 +12,8 @@ export class ServicetermsComponent implements OnInit {
 
   ngOnInit() { }
 
+  scroll(el: HTMLElement) {
+    el.scrollIntoView({ behavior: 'smooth' });
+  }
+
 }

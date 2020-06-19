@@ -6,7 +6,29 @@
   text-transform: uppercase;
 }
 
-list-body li {
-  margin-top: 10px;
-  margin-bottom: 10px;
+.row-left {
+  width: 25%;
+  float: left;
+}
+
+.row-right {
+  width: 75%;
+
+}
+
+.list-body li {
+  /* margin-top: 20px;
+  margin-bottom: 20px; */
+  cursor: pointer;
+}
+
+@media (max-width: 994px) {
+  .row-left {
+    display: none;
+  }
+  
+  .row-right {
+    width: 100%;
+  
+  }
 }

@@ -2866,17 +2866,17 @@ fieldset:disabled a.btn {
 
 }
 
-.btn-appstore {
-  background: url("assets/images/appstorei.png") no-repeat scroll 0 0 transparent;
+/* .btn-appstore {
+  background: url("assets/images/appstore.png") no-repeat scroll 0 0 transparent;
   height: 45px;
   width: 195px;
 }
 
 .btn-playstore {
-  background: url("assets/images/playstorei.png") no-repeat scroll 0 0 transparent;
+  background: url("assets/images/playstore.png") no-repeat scroll 0 0 transparent;
   height: 48px;
   width: 195px;
-}
+} */
 
 .btn-secondary:hover {
   color: #212529;
@@ -17564,17 +17564,17 @@ fieldset:disabled a.btn {
 
 }
 
-.btn-appstore {
-  background: url("assets/images/appstorei.png") no-repeat scroll 0 0 transparent;
+/* .btn-appstore {
+  background: url("assets/images/appstore.png") no-repeat scroll 0 0 transparent;
   height: 45px;
   width: 195px;
 }
 
 .btn-playstore {
-  background: url("assets/images/playstorei.png") no-repeat scroll 0 0 transparent;
+  background: url("assets/images/playstore.png") no-repeat scroll 0 0 transparent;
   height: 48px;
   width: 195px;
-}
+} */
 
 .btn-secondary:hover {
   color: #212529;
