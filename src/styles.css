@@ -12197,6 +12197,7 @@ ul.icon-rounded li a.social-link {
 .owl-carousel .owl-stage {
   position: relative;
   touch-action: manipulation;
+  backface-visibility: hidden;
   -moz-backface-visibility: hidden;
 }
 
@@ -12212,18 +12213,22 @@ ul.icon-rounded li a.social-link {
 .owl-carousel .owl-stage-outer {
   position: relative;
   overflow: hidden;
+  transform: translate3d(0, 0, 0);
   -webkit-transform: translate3d(0, 0, 0);
 }
 
 .owl-carousel .owl-item,
 .owl-carousel .owl-wrapper {
+  backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
   -webkit-transform: translate3d(0, 0, 0);
 }
 
 .owl-carousel .owl-item {
   min-height: 1px;
   float: left;
+  backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   -webkit-touch-callout: none;
 }
@@ -12364,6 +12369,7 @@ ul.icon-rounded li a.social-link {
   /* background: url("owl-video-plav.png") no-repeat;  */
   cursor: pointer;
   z-index: 1;
+  backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   transition: transform .1s ease;
 }
@@ -12474,6 +12480,7 @@ ul.icon-rounded li a.social-link {
   margin: 5px 0px;
   background: #999;
   display: block;
+  backface-visibility: visible;
   -webkit-backface-visibility: visible;
   transition: opacity .2s ease;
   border-radius: 50%;
@@ -12871,6 +12878,7 @@ body:after {
   margin: 5px 3px;
   background: #fff;
   display: block;
+  backface-visibility: visible;
   -webkit-backface-visibility: visible;
   transition: opacity .2s ease;
   border-radius: 30px;
@@ -13474,6 +13482,7 @@ body:after {
   z-index: 1043;
   position: fixed;
   outline: none !important;
+  backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
 }
 
@@ -26895,6 +26904,7 @@ ul.icon-rounded li a.social-link {
 .owl-carousel .owl-stage {
   position: relative;
   touch-action: manipulation;
+  backface-visibility: hidden;
   -moz-backface-visibility: hidden;
 }
 
@@ -26910,18 +26920,22 @@ ul.icon-rounded li a.social-link {
 .owl-carousel .owl-stage-outer {
   position: relative;
   overflow: hidden;
+  transform: translate3d(0, 0, 0);
   -webkit-transform: translate3d(0, 0, 0);
 }
 
 .owl-carousel .owl-item,
 .owl-carousel .owl-wrapper {
+  backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
   -webkit-transform: translate3d(0, 0, 0);
 }
 
 .owl-carousel .owl-item {
   min-height: 1px;
   float: left;
+  backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   -webkit-touch-callout: none;
 }
@@ -27062,6 +27076,7 @@ ul.icon-rounded li a.social-link {
   /* background: url("owl-video-plav.png") no-repeat;  */
   cursor: pointer;
   z-index: 1;
+  backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   transition: transform .1s ease;
 }
@@ -27172,6 +27187,7 @@ ul.icon-rounded li a.social-link {
   margin: 5px 0px;
   background: #999;
   display: block;
+  backface-visibility: visible;
   -webkit-backface-visibility: visible;
   transition: opacity .2s ease;
   border-radius: 50%;
@@ -27569,6 +27585,7 @@ body:after {
   margin: 5px 3px;
   background: #fff;
   display: block;
+  backface-visibility: visible;
   -webkit-backface-visibility: visible;
   transition: opacity .2s ease;
   border-radius: 30px;
@@ -28173,6 +28190,7 @@ body:after {
   z-index: 1043;
   position: fixed;
   outline: none !important;
+  backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
 }
 
