@@ -33,5 +33,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ```cmd
     docker build -t <image_name> .
     docker run --name <container_name> -d -p <8080>:80 <image_name>
-
 ```
