@@ -1,35 +1,82 @@
 <app-contact></app-contact>
 <section class="w3l-block py-5">
   <div class="container py-lg-5 py-md-4">
+    <!-- <app-sidenav></app-sidenav> -->
     <div class="row row-left">
       <div class="col-lg-12 col-md-6 align-self">
-        <p>Terms of Service</p>
-        <hr>
-        <ol class="list-body">
-          <li class="mt-md-4 mt-3" (click)="scroll(freetrial)">1.&nbsp;&nbsp;Free Trial</li>
-          <hr>
-          <li class="mt-md-4 mt-3" (click)="scroll(useservices)">2.&nbsp;Use of Services</li>
-          <hr>
-          <li class="mt-md-4 mt-3" (click)="scroll(nonaaait)">3.&nbsp;Non AAAIT Services</li>
-          <hr>
-          <li class="mt-md-4 mt-3" (click)="scroll(accesssubcription)">4.&nbsp;Access and Subscription</li>
-          <hr>
-          <li class="mt-md-4 mt-3" (click)="scroll(propertyrights)">5.&nbsp;Proprietary Rights</li>
-          <hr>
-          <li class="mt-md-4 mt-3" (click)="scroll(intellectualprop)">6.&nbsp;Intellectual Property</li>
-          <hr>
-          <li class="mt-md-4 mt-3" (click)="scroll(warrantiesdisclaimer)">7.&nbsp;Warranties and Disclaimer</li>
-          <hr>
-          <li class="mt-md-4 mt-3" (click)="scroll(indemnification)">8.&nbsp;Mutual Indemnification</li>
-          <hr>
-          <li class="mt-md-4 mt-3" (click)="scroll(liability)">9.&nbsp;Limitation of Liability</li>
-          <hr>
-          <li class="mt-md-4 mt-3" (click)="scroll(generalprovisions)">10.&nbsp;General Provisions</li>
-        </ol>
+        <p class="mt-2 border border-top-0 border-left-0 border-right-0">Table of Contents</p>
 
+        <ol class="list-body scroll-left-row">
+          <li class="mt-md-4 mt-3 border border-top-0 border-left-0 border-right-0" (click)="scroll(freetrial)">
+            1.&nbsp;&nbsp;Free
+            Trial</li>
+
+          <li class="mt-md-4 mt-3 border border-top-0 border-left-0 border-right-0" (click)="scroll(useservices)">
+            2.&nbsp;Use of
+            Services</li>
+
+          <li class="mt-md-4 mt-3 border border-top-0 border-left-0 border-right-0" (click)="scroll(nonaaait)">
+            3.&nbsp;Non AAAIT
+            Services</li>
+
+          <li class="mt-md-4 mt-3 border border-top-0 border-left-0 border-right-0" (click)="scroll(accesssubcription)">
+            4.&nbsp;Access and Subscription</li>
+
+          <li class="mt-md-4 mt-3 border border-top-0 border-left-0 border-right-0" (click)="scroll(propertyrights)">
+            5.&nbsp;Proprietary Rights</li>
+
+          <li class="mt-md-4 mt-3 border border-top-0 border-left-0 border-right-0" (click)="scroll(intellectualprop)">
+            6.&nbsp;Intellectual Property</li>
+
+          <li class="mt-md-4 mt-3 border border-top-0 border-left-0 border-right-0"
+            (click)="scroll(warrantiesdisclaimer)">
+            7.&nbsp;Warranties and Disclaimer</li>
+
+          <li class="mt-md-4 mt-3 border border-top-0 border-left-0 border-right-0" (click)="scroll(indemnification)">
+            8.&nbsp;Mutual
+            Indemnification</li>
+
+          <li class="mt-md-4 mt-3 border border-top-0 border-left-0 border-right-0" (click)="scroll(liability)">
+            9.&nbsp;Limitation of
+            Liability</li>
+
+          <li class="mt-md-4 mt-3 border border-top-0 border-left-0 border-right-0" (click)="scroll(generalprovisions)">
+            10.&nbsp;General Provisions</li>
+          <ol>
+            <li class="mt-md-4 mt-3 border border-top-0 border-left-0 border-right-0" (click)="scroll(agreementscope)">
+              i.&nbsp;Purpose & Scope of Agreement
+            </li>
+            <li class="mt-md-4 mt-3 border border-top-0 border-left-0 border-right-0"
+              (click)="scroll(aaitresponsibility)">
+              ii.&nbsp;Responsibilities of AAAIT PLC
+            </li>
+            <li class="mt-md-4 mt-3 border border-top-0 border-left-0 border-right-0"
+              (click)="scroll(customerresponsibilty)">
+              iii.&nbsp;Responsibilities of Customer
+            </li>
+            <li class="mt-md-4 mt-3 border border-top-0 border-left-0 border-right-0" (click)="scroll(modifyservice)">
+              iv.&nbsp;Modifications of the Service
+            </li>
+            <li class="mt-md-4 mt-3 border border-top-0 border-left-0 border-right-0" (click)="scroll(patentsrights)">
+              v.&nbsp;Patents, Copyrights & Intellectual Property Rights
+            </li>
+            <li class="mt-md-4 mt-3 border border-top-0 border-left-0 border-right-0" (click)="scroll(liabilitylimit)">
+              vi.&nbsp;Warranties & Limitation of Liability
+            </li>
+            <li class="mt-md-4 mt-3 border border-top-0 border-left-0 border-right-0" (click)="scroll(termination)">
+              vii.&nbsp;Termination
+            </li>
+            <li class="mt-md-4 mt-3 border border-top-0 border-left-0 border-right-0" (click)="scroll(arbitration)">
+              viii.&nbsp;Governing Law & Arbitration
+            </li>
+            <li class="mt-md-4 mt-3 border border-top-0 border-left-0 border-right-0" (click)="scroll(general)">
+              ix.&nbsp;General
+            </li>
+          </ol>
+        </ol>
         <div class="border border-left-0 border-right-0">
           <a href="https://drive.google.com/file/d/187u2bgxf0pWNAoUXPViXgJlMK9dkL0CO/view?usp=sharing"
-          target="_blank">Download PDF</a>
+            target="_blank">Download PDF</a>
         </div>
       </div>
     </div>
@@ -212,8 +259,9 @@
       </div>
 
       <div class="col-lg-12 col-md-6 align-self mt-10">
-        <h3 class="mt-10" >7.</h3>        
-        <p class="mt-md-4 mt-3  mb-0"><b class="text" #indemnification>Warranties and disclaimer - </b>Limited Warranty. The Company
+        <h3 class="mt-10">7.</h3>
+        <p class="mt-md-4 mt-3  mb-0"><b class="text" #indemnification>Warranties and disclaimer - </b>Limited Warranty.
+          The Company
           hereby warrants to You that the Services will perform substantially in accordance with the specifications as
           may be published and modified by the Company on the Site from time to time (hereinafter: the
           “Specifications”). In the event that the Services do not conform with the Specifications, and if You do not
@@ -237,8 +285,8 @@
           HEREBY IRREVOCABLY WAIVE ANY CLAIM THAT MAY ARISE IN CONNECTION WITH OR AS A RESULT OF ANY MALFUNCTION
           AND/OR
           DEFAULT AND/OR UNSUITABILITY IN THE INTERNET AND/OR THE CONNECTIVITY OF ANY PARTIES' DEVICES TO THE
-          INTERNET.          
-        </p>        
+          INTERNET.
+        </p>
       </div>
 
       <div class="col-lg-12 col-md-6 align-self mt-10">
@@ -263,7 +311,8 @@
           to
           You any prepaid fees covering the remainder of the term of such User subscriptions.
         </p>
-        <p class="mt-md-4 mt-3  mb-0"  #liability><b>Indemnification by You. </b>You shall defend Us against any claim, demand,
+        <p class="mt-md-4 mt-3  mb-0" #liability><b>Indemnification by You. </b>You shall defend Us against any claim,
+          demand,
           suit
           or proceeding made or brought against Us by a third party alleging that Your Data, or Your use of the
           Services
@@ -316,7 +365,8 @@
           a third party over the terms and conditions of a contract related to the purchase/sale of any goods or
           services, a breach by You relating to any of the terms and conditions set forth in this These Terms, any
           action where you or a third party violates any law, regulation or rights of any third party, etc.</p>
-        <p class="mt-md-4 mt-3  mb-0" #generalprovisions><b>Release. </b>You hereby acknowledge and agree that the Company is
+        <p class="mt-md-4 mt-3  mb-0" #generalprovisions><b>Release. </b>You hereby acknowledge and agree that the
+          Company is
           not a party to any actual engagement between you and vendors and/or any other third parties. As a result,
           the
           Company has no control over the quality, safety or legality of any such agreements between You and such
@@ -379,13 +429,13 @@
         <p class="mt-md-4 mt-3  mb-0">The terms used in this Agreement shall have the following
           meanings:
         </p>
-        <p class="mt-md-4 mt-3  mb-0"><b>"AAAIT PLC" </b>means AA Advanced Information Technology PLC with the
+        <p class="mt-md-4 mt-3  mb-0"  #agreementscope><b>"AAAIT PLC" </b>means AA Advanced Information Technology PLC with the
           registered address of:<br>
           Office 601, Ras Dashen Building<br>
           Bole, Addis Ababa<br>
           Ethiopia
           .</p>
-        <p class="mt-md-4 mt-3  mb-0"><b>"Service" </b>means the service(s) which enables Customer, by use
+        <p class="mt-md-4 mt-3 mb-0"><b>"Service" </b>means the service(s) which enables Customer, by use
           of a host-to-host connection to the AAAIT Network, translation and conversion services, offered by AAAIT PLC
           which permit the exchange of data by and among Customer partners;</p>
         <p class="mt-md-4 mt-3  mb-0"><b>"Date of Acceptance of the Service" </b>means the date upon which the
@@ -403,7 +453,7 @@
                   equipment, software or public data networks.</p>
               </li>
               <li class="mt-3">
-                <p class="mt-md-4 mt-3  mb-0">2.&nbsp;The Service will allow Customer to transmit and receive those
+                <p class="mt-md-4 mt-3  mb-0" #aaitresponsibility>2.&nbsp;The Service will allow Customer to transmit and receive those
                   types of messages supported by the Inibla software. AAAIT PLC will receive, format, translate and
                   validate Customer's data received and route such data through a network to recipients.</p>
               </li>
@@ -420,7 +470,7 @@
                   require AAAIT to make disclosures.</p>
               </li>
               <li>
-                <p class="mt-md-4 mt-3  mb-0">2.&nbsp;Subject to the availability of tail circuits for which AAAIT
+                <p class="mt-md-4 mt-3  mb-0" #customerresponsibilty>2.&nbsp;Subject to the availability of tail circuits for which AAAIT
                   has no responsibility, AAAIT shall endeavour to provide the Service continuously, except for
                   scheduled
                   down-time at predetermined intervals to be notified by AAAIT in advance. In the event of unscheduled
@@ -441,7 +491,7 @@
                 </p>
               </li>
               <li>
-                <p class="mt-md-4 mt-3  mb-0">2.&nbsp;Customer shall pay for all charges relating to the
+                <p class="mt-md-4 mt-3  mb-0" #modifyservice>2.&nbsp;Customer shall pay for all charges relating to the
                   transmission, over the AAAIT network, of data from Customer's host computer(s) to the Inibla system,
                   and all other charges or fees owing under this Agreement. Payment for the Services shall be made
                   through AAAIT..</p>
@@ -452,7 +502,7 @@
             <p class="mt-md-4 mt-3  mb-0">4.&nbsp;<b>Modifications of the Service</b></p>
             <ol>
               <li>
-                <p class="mt-md-4 mt-3  mb-0">1.&nbsp;AAAIT may, in its sole discretion, change, modify, vary,
+                <p class="mt-md-4 mt-3  mb-0" #patentsrights>1.&nbsp;AAAIT may, in its sole discretion, change, modify, vary,
                   enhance and update the Service provided that the overall core functionality is available from AAAIT
                   to
                   the Customer.</p>
@@ -464,7 +514,7 @@
             </p>
             <ol>
               <li>
-                <p class="mt-md-4 mt-3  mb-0">1.&nbsp;It is understood and agreed by Customer and AAAIT that all
+                <p class="mt-md-4 mt-3  mb-0" #liabilitylimit>1.&nbsp;It is understood and agreed by Customer and AAAIT that all
                   intellectual property rights in the Software and in the computer programs utilised by AAAIT in
                   relation to the Inibla Service and the AAAIT network, and the technology, skill and information
                   relating to the effective use thereof, are either licensed to or the property of AAAIT and nothing
@@ -535,7 +585,7 @@
                         </b></p>
                     </li>
                     <li>
-                      <p class="mt-md-4 mt-3  mb-0">2.&nbsp;<b>
+                      <p class="mt-md-4 mt-3  mb-0" #termination>2.&nbsp;<b>
                           should any limitation or provisions contained in this Section be held to be invalid under
                           any applicable statute or rule of law it shall to the extent be deemed omitted but if any
                           party thereby becomes liable for loss or damage which would otherwise have been excluded,
@@ -558,7 +608,7 @@
                   result thereof, for so long as such event, or its consequences, continue.</p>
               </li>
               <li>
-                <p class="mt-md-4 mt-3  mb-0">2.&nbsp;Either party may, by written notice, terminate this Agreement
+                <p class="mt-md-4 mt-3  mb-0" #arbitration>2.&nbsp;Either party may, by written notice, terminate this Agreement
                   forthwith, without prejudice to any other rights or remedies it may otherwise have, if (a) the other
                   party files a petition for relief under any bankruptcy legislation, or if any involuntary petition
                   thereunder should be filed against either party and the same is not dismissed within thirty (30)
@@ -576,7 +626,7 @@
             <p class="mt-md-4 mt-3  mb-0">8.&nbsp;<b>Governing Law and Arbitration</b></p>
             <ol>
               <li>
-                <p class="mt-md-4 mt-3  mb-0">1.&nbsp;This Agreement shall be governed by international laws and the
+                <p class="mt-md-4 mt-3  mb-0" #general>1.&nbsp;This Agreement shall be governed by international laws and the
                   laws of Ethiopia and shall be applied and construed in accordance therewith. All disputes arising in
                   connection with this Agreement shall be finally settled under the Rules of Conciliation and
                   Arbitration of the International Chamber of Commerce by a single arbitrator appointed in accordance

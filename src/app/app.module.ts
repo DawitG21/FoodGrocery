@@ -12,6 +12,7 @@ import { IndexComponent } from '../components/index/index.component';
 import { JoinUsComponent } from '../components/join-us/join-us.component';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { ServicetermsComponent } from '../components/serviceterms/serviceterms.component';
+import { SidenavComponent } from '../components/sidenav/sidenav.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ServicetermsComponent } from '../components/serviceterms/serviceterms.c
     FaqComponent,
     IndexComponent,
     JoinUsComponent,
-    ServicetermsComponent
+    ServicetermsComponent,
+    SidenavComponent
   ],
   imports: [
     BrowserModule,
