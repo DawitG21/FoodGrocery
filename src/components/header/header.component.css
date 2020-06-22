@@ -58,3 +58,12 @@ header {
 .cls-2 {
   fill: #ffffff;
 }
+
+@media only screen and (max-width: 991px) {
+
+  header.active {
+    background: rgba(0, 0, 0, 0.7) !important;
+    height: 40vh;
+  }
+
+}
