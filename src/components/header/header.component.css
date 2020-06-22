@@ -33,19 +33,17 @@
 }
 
 .logo-height {
-  height: 80px;
-  /* height: 58px; */
+  height: 58px;
 }
 
-/* header {
+header {
   padding: 0px;
   transition: all 0.4s ease 0s;
   background: var(--primary-color);
   height: 60px;
   display: grid;
   align-items: center;
-  // border-bottom: 1px solid #ff6555; //
-} */
+}
 
 .contact-p {
   line-height: 25px;
