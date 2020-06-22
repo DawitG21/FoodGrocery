@@ -4372,8 +4372,6 @@ a.badge-dark.focus {
   animation: progress-bar-stripes 1s linear infinite;
 }
 
-
-
 .media {
   display: flex;
   align-items: flex-start;
@@ -9363,7 +9361,7 @@ iframe {
   border-radius: 4px;
 }
 
-/* Media  Queries Start Here Line 9371 */
+/* MediaQueryStartHereLine9371 */
 
 @media all and (max-width: 1024px) {
   .align-form-map {
