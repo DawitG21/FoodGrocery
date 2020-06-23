@@ -6965,9 +6965,9 @@ h2.title {
   text-align: center;
 }
 
-/* .inibla-breadcrumb {
+.inibla-breadcrumb {
   background-color: #f8f8f8;
-} */
+}
 
 .breadcrumbs-custom-path {
   padding: 15px 0;
@@ -7080,7 +7080,8 @@ h2.title {
 
 .inibla-top-header {
   position: relative;
-  height: 100px;
+  /* height: 100px; */
+  height: 60px;
 }
 
 button.navbar-toggler .icon-close {

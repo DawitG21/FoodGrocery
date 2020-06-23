@@ -24,22 +24,36 @@
 
 .scroll-left-row {
   max-height: 475px;
-  overflow-y: scroll; 
+  overflow-y: scroll;
+ /*  overflow-x: hidden; */
 }
-
-/* @media (max-width : 1100px) {
-  .row-right {
-    margin-right: 25px;
-  }
-} */
 
 @media (max-width: 994px) {
   .row-left {
-    display: none;   
+    display: none;
   }
 
   .row-right {
     width: 100%;
     margin-left: 0%;
+  }
+}
+
+@media (max-width: 995px) {
+  .row-right {
+    margin-left: 0% !important;
+  }
+
+}
+
+@media (max-width: 1295px) {
+  .row-right {
+    margin-left: 28%;
+  }
+}
+
+@media (min-width: 1296px) {
+  .row-right {
+    margin-left: 35%;
   }
 }
