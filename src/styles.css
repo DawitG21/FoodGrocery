@@ -332,8 +332,6 @@ legend {
   white-space: normal;
 }
 
-
-
 progress {
   vertical-align: baseline;
 }
@@ -400,14 +398,10 @@ h1,
   cursor: pointer;
 }
 
-
-
 h2,
 .h2 {
   font-size: 2rem;
 }
-
-
 
 h3,
 .h3 {
@@ -420,8 +414,6 @@ h4,
 .h4 {
   font-size: 1.5rem;
 }
-
-
 
 h5,
 .h5 {
@@ -455,15 +447,11 @@ h6,
   height: 42px;
 }
 
-
-
 .display-2 {
   font-size: 5.5rem;
   font-weight: 300;
   line-height: 1.2;
 }
-
-
 
 .display-3 {
   font-size: 4.5rem;
@@ -471,15 +459,11 @@ h6,
   line-height: 1.2;
 }
 
-
-
 .display-4 {
   font-size: 3.5rem;
   font-weight: 300;
   line-height: 1.2;
 }
-
-
 
 hr {
   margin-top: 1rem;
@@ -539,7 +523,6 @@ mark,
 }
 
 .img-fluid {
-  /* max-width: 100%; */
   max-width: 100%;
   height: auto;
 }
@@ -621,7 +604,6 @@ pre code {
   margin-left: auto;
 }
 
-
 .container-fluid,
 .container-sm,
 .container-md,
@@ -633,7 +615,6 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
-
 
 .row {
   display: flex;
