@@ -11,6 +11,7 @@
   float: left;
   position: fixed;
   padding-right: 55px;
+  top: 110px;
 }
 
 .row-right {
@@ -23,9 +24,8 @@
 }
 
 .scroll-left-row {
-  max-height: 475px;
   overflow-y: scroll;
- /*  overflow-x: hidden; */
+  height: 70.5vh;
 }
 
 @media (max-width: 994px) {
