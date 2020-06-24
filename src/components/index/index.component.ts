@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+/* import { Router } from '@angular/router'; */
 
 @Component({
   selector: 'app-index',
@@ -7,8 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class IndexComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    /* public route: Router */
+    ) { }
 
   ngOnInit() { }
+
+  topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+    /* this.route.navigate(['/faq']); */
+  }
 
 }
