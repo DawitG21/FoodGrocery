@@ -102,5 +102,19 @@ input:checked {
   ~.tab-content {
     max-height: 100vh;
     padding: 1em;
+    font-family: Comfortaa;
   }
+}
+
+@media (max-width: 994px) {
+.row {
+ /*  display: flex; */
+  .col {
+   /*  flex: 1; */
+    &:last-child {
+      margin-left: 0em;
+    }
+  }
+}
+
 }
