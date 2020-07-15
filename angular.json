@@ -144,6 +144,15 @@
           "configurations": {
             "production": {
               "devServerTarget": "iniblaWebsite:serve:production"
+            },
+            "am": {
+              "devServerTarget": "iniblaWebsite:serve:am"
+            },
+            "fr": {
+              "devServerTarget": "iniblaWebsite:serve:fr"
+            },
+            "ci": {
+              "devServerTarget": "iniblaWebsite:serve:ci"
             }
           }
         }
