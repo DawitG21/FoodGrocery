@@ -1,0 +1,21 @@
+{
+  "Header": {
+    "Links": {
+      "About": "About",
+      "How It Works": "How It Works",
+      "FAQ": "FAQ",
+      "Contact": "Contact"
+    },
+    "Language": "English",
+    "English": "English",
+    "French": "French",
+    "Amharic": "Amharic",
+    "Chinese": "Chinese"
+  },
+  
+  "Homepage": {
+    "Banner": "You order, we get it!",
+    "BannerTag": "Follow your orders with the Inibla App",
+    "BannerIntro": "Watch the progress of your deliveries in real-time and order from anywhere"
+  }
+}

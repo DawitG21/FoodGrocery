@@ -1,0 +1,21 @@
+{
+  "Header": {
+    "Links": {
+      "About": "关于我们",
+      "How It Works": "这个怎么运作",
+      "FAQ": "经常问的问题",
+      "Contact": "联系我们"
+    },
+    "Language": "中文",
+    "English": "英语",
+    "French": "法文",
+    "Amharic": "阿姆哈拉语",
+    "Chinese": "中文"
+  },
+
+  "Homepage": {
+    "Banner": "您订购，我们得到了！",
+    "BannerTag": "使用Inibla应用程序遵循您的订单",
+    "BannerIntro": "随时随地实时观察交货进度并订购"
+  }
+}

@@ -1,0 +1,877 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="004b222ff9ef9dd4771b777950ca1d0e4cd4348a" datatype="html">
+        <source>About</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/header/header.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b153bb5e43839ad39ae1b913cb95b0dc9af65191" datatype="html">
+        <source>How It Works</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/header/header.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4b6dbf2d92858e82bcf6ae5dbc8dfb4b29d82ad0" datatype="html">
+        <source>FAQ</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/header/header.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="62f8ffc20df1542e417e1f6009f06187fceac128" datatype="html">
+        <source>
+                 Contact
+               </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/header/header.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a8e6260a3376796a38c7a5e1d6a7a845e106fe22" datatype="html">
+        <source>Language<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/header/header.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4cff9b06226490b8dce9a26a015eec916c99e07b" datatype="html">
+        <source>Amharic</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/header/header.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8a838c3b8ef533a30d45e12ba2995fa705c2c546" datatype="html">
+        <source>
+                     English</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/header/header.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c08a4b87e44d03394fec0cfdc8043bb0a2b2ec3a" datatype="html">
+        <source>Chinese</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/header/header.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8293a584b57b870aca184a23bb8039c829acc4cf" datatype="html">
+        <source>French</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/header/header.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="729754dd19eb9ce0670b0aeb5a6ae60574c2c563" datatype="html">
+        <source>Address</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/footer/footer.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8c3dd724d03046d0f6c55335a3137554e35d1be8" datatype="html">
+        <source>Office 601, 6th Floor, Ras Dashen Building, Addis Ababa, Ethiopia</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/footer/footer.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="610f20d242b74c790da8ff70aa23ce523c93c1fe" datatype="html">
+        <source>Get In Touch</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/footer/footer.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="256826552274d059918760335f82fe02101baa4f" datatype="html">
+        <source>Want to know more about us or have a question? Read our FAQ&apos;s or contact us!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/footer/footer.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="035b1a809d71de4617554b294d45ea3e9d0e871f" datatype="html">
+        <source>+251-90-414-9609</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/footer/footer.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e7f09eb3a812a7bd677b22a04954867d952d7a23" datatype="html">
+        <source>Opening Hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/footer/footer.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f6032501b96ecb76f74e8942d56805a318523fff" datatype="html">
+        <source>Monday - Friday</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/footer/footer.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a3b129d8a20b984ea8b999707aa51b37bac9ad7b" datatype="html">
+        <source>09:00 am to 10:00 pm</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/footer/footer.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3b586c9f2e811c6cc61a6ced8436c0b2564b8bb3" datatype="html">
+        <source>After Office Hours<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>24/7 </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/footer/footer.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ef3828e60c35baa03c0f44904bed0e0b008a9d33" datatype="html">
+        <source>Download App</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/footer/footer.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="af295e3b076b0d8c34dcc2bb54e470f8dd88894e" datatype="html">
+        <source>© 2020 inibla. All rights reserved</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/footer/footer.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="57522efe009a0409ade6328c4dd29a26233f67b3" datatype="html">
+        <source><x id="START_SMALL_TEXT" ctype="x-small" equiv-text="&lt;small&gt;"/>Terms of Service<x id="CLOSE_SMALL_TEXT" ctype="x-small" equiv-text="&lt;/small&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/footer/footer.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="262d902fa6713da6d7709ef83f403d90380fa029" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Home<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/faq/faq.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="39e3a2b6bd91a22079ba6e8bf2f286ef55b50c25" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> About Us</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0e72634baa9723c676cd04b53f0a28282b8aed5c" datatype="html">
+        <source>who we are</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="76f3dbd0b2d8f1d1003fcecfea9cf5b6f145e082" datatype="html">
+        <source>About us</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6400b6770bde87f06a325f8906317154dbfac2e3" datatype="html">
+        <source>Best-in-Class B2B Crowdsourced Last-Mile Delivery for emerging markets</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="923ed37c7c63ef9af90cbd239c91f1c4567ccf14" datatype="html">
+        <source>Inibla is an on-demand courier service that purchases, picks up, and delivers products
+              ordered
+              through its mobile app. It aspires to be a multi-category lifestyle app with food delivery being the most
+              popular offering</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d171799ce4cd06c7da0517ed2931cbee9117003b" datatype="html">
+        <source>Hassle-Free Cash Collection Process</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="696f690709e68581f4d89f4b830ff91714c7b6cb" datatype="html">
+        <source>Because +80% of deliveries in the Addis Ababa region require cash-on-delivery, we built a Digital Wallet
+            for
+            every business and driver dealing with us. The result is a very organized payment process which includes
+            paying
+            back the cash we collected for you in weekly payment cycles through a list of supported banks with no
+            additional transferring fees.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="be0df30f98d0322d0fe100f2bef8870de5a59da2" datatype="html">
+        <source>Order<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Tracking</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5777c721902bb14544d43775fb3211d2497d793b" datatype="html">
+        <source>Cash On<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Delivery</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0ea4c339c2fc1a7b812f49d9ae87b473b3c8af00" datatype="html">
+        <source>Customers<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Support</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="44740747b5ccbf9c10e804838e6441bfb94084d0" datatype="html">
+        <source>Verified<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Drivers</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f1e72286696483377b6de6303589c463d6e84b78" datatype="html">
+        <source>Easy<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Intergration</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">89</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="510eb283902860bd8b8fb15c163e9f5d5df9cca8" datatype="html">
+        <source>Transparent<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Pricing</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="edc7e18d479b2c6f44c2d74967f13b9a78fceb7e" datatype="html">
+        <source>Insurance<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Policy</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">105</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bad4dfccad8915da7b4732f658f379a3093d777c" datatype="html">
+        <source>Flexible Return<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Policy</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">113</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3769680bcd8c8a34ad02a7ce1f246a4fbae11407" datatype="html">
+        <source>Our facts</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">127</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="624d918ba6162ecced1b21f6f3b2a9b5eff8cea9" datatype="html">
+        <source>Why we are unique? Have a look.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">128</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3ed6e2d6a57b07a68da38b0b3169a78d2213de3a" datatype="html">
+        <source>8000+</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">136</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="93a1e2086faca0bb133a721377bd461ae4ce7fe4" datatype="html">
+        <source>registered customers</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">138</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="888269fa731a215bf162411453838b64cc273623" datatype="html">
+        <source>90000+</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">145</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="943364705e03f3a8baf6482d41cfea26d14a8ef9" datatype="html">
+        <source>page views/month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">147</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fd38299118aebaae2a2a49a3fdc5ea48058b67b9" datatype="html">
+        <source>1000000+</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">154</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="842041d705d058465c4d5460049246a6c6df4780" datatype="html">
+        <source>value of goods sold/month (ETB)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">156</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a9cd05957f4d642d4f3f92d39c9a6d8b50d7d8b0" datatype="html">
+        <source>Food Delivery and More. You Order, We Get it!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/contact/contact.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="02e9e69ddcbf93de9fd38bc4d0f312142658610d" datatype="html">
+        <source>Contact Us</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/contact/contact.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="59d2b20b0fc0271de37e5669cf4274615a18fcb3" datatype="html">
+        <source>Office 506 Dashen Bldg, Addis Ababa</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/contact/contact.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="02a57ddb6792e945623265cb40a04c9ec9153b67" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>+251-904-14-9609<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/contact/contact.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0222c0b8c304327fc581e65cca7089a39892dd7f" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Mon - Fri : 09:00 am to 10:00
+                    pm<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/contact/contact.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="efe48979b814e9b3aefa6a5fe68f09a8ef086f17" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>After Office Hours : 24/7<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/contact/contact.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e5550b4db07bf4bed5d32090ab86adf9583cc7c7" datatype="html">
+        <source>Follow Us</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/contact/contact.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="622f76aa25eb344b2f7a99056458ae47ed5ec854" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>FAQ</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/faq/faq.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="571da6115b226bb7e624b797fe79283b6b05091b" datatype="html">
+        <source>frequently asked questions</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/faq/faq.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5cc5340e1e122773553003c45a63826f38c77aea" datatype="html">
+        <source>Want to find out more about inibla? Have a look.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/faq/faq.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9e85091600eef3f186d36c3bf497114af4fa0fba" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> General Questions</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/faq/faq.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="408fca65130a4f4d423b9145417d638358131cea" datatype="html">
+        <source>How does it work ?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/faq/faq.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="57565e1bfa0228a963ccf8145cb5141b057f91cc" datatype="html">
+        <source>
+              We deliver to our customers from anywhere our customers would like. We take your order online and
+              place it with the vendor from which you ordered from.
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/faq/faq.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6d7fe78161141c80c4f93710861eba6ef7a95f54" datatype="html">
+        <source>Can I order from more than one vendor at a time ?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/faq/faq.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9b7aaa620a8f5c663f170902c1da9206a237bf8d" datatype="html">
+        <source>
+              If you&apos;d like to order from more than one restaurant, you can place multiple orders. We only support
+              ordering from one restaurant per order and the quoted delivery fees per order will apply due to the
+              increased time and number of stops.
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/faq/faq.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ee78978b744770911ada368fc66b0ad2764220e3" datatype="html">
+        <source>Do you charge for delivery?
+              ?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/faq/faq.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bb7342a034e3cff1548729ab74b07fd4b4e12e19" datatype="html">
+        <source>
+              Yes! Our delivery fee varies depending on your distance from the vendor location.
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/faq/faq.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="99b68b13b7aa8a2cc512248a58347dd2eeee0ed8" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Vendor Questions</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/faq/faq.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dba3132af4ac402b678e955139c01c559cbc61ff" datatype="html">
+        <source>What happens if I have changed my item prices ?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/faq/faq.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9b8b955cc59d3eef4828a8c577b1cb383b20dc1d" datatype="html">
+        <source>
+              If there has been a menu change, we will contact you to make sure the price difference is ok.
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/faq/faq.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5a67a8dd4eca3489a981feb3a6fa695444211f84" datatype="html">
+        <source>How do I follow up my order records ?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/faq/faq.component.html</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c5bf01b868c1e2e3c67437df9052bec775ce1fe3" datatype="html">
+        <source>
+              Other than the customer applivation, We have a the vendors&apos; application that allows you to not only track
+              your order records, But also allows you to manage your business as a whole.
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/faq/faq.component.html</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2dd0b40cee1c06e4cf6d91c3cd26d13f5a726aa6" datatype="html">
+        <source>How do you take into account, the packaging of my various items to ensure
+              they reach the customer in good state ?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/faq/faq.component.html</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="55de87e9b87edfe0ed81be7f9c36fa1899d45d25" datatype="html">
+        <source>
+              We have differnt package boxes for both hot or warm orders as well as for cool or cold orders.
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/faq/faq.component.html</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e3c3246e34f449d0b0fb6c6dbd1cd49de4a4bf57" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Driver Questions</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/faq/faq.component.html</context>
+          <context context-type="linenumber">89</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="96a890fd5388d31df88896dbe53571e49b23fea6" datatype="html">
+        <source>Who do I call if there is a mistake with my Order ?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/faq/faq.component.html</context>
+          <context context-type="linenumber">93</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a22cb230c07e2a4d1b1f21b09358fd9bc8643530" datatype="html">
+        <source>
+              Please call <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>+251904149609<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> within thirty minutes of delivery If there is anything missing or
+              incorrect. We
+              will get incorrect items replaced; missing items delivered or arrange for credit towards your next order.
+              To use your credit please call the office to place your order.
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/faq/faq.component.html</context>
+          <context context-type="linenumber">94</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c287bee91e9f26240ee4dee34be3eb99de6168a4" datatype="html">
+        <source>How do I join as a delivery driver ?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/faq/faq.component.html</context>
+          <context context-type="linenumber">103</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dc362dd625520ffb8afbb2bdbb0d7a47de904490" datatype="html">
+        <source>
+              You could fill out the form provided in our website, or pay us a visit at our offices indicated in the
+              Contac Us Page or you could give us a call through this number <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>+251904149609<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>, and we&apos;ll get in
+              touch with you for more details.
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/faq/faq.component.html</context>
+          <context context-type="linenumber">104</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="585094f46817c715f767f92bb9edb4d93282b4c8" datatype="html">
+        <source>Is there a limit in the number of delivery trips I can make in a day
+              ?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/faq/faq.component.html</context>
+          <context context-type="linenumber">112</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e595cd33ae8076b5b44ebcfc419379707a269ca0" datatype="html">
+        <source>
+              No! You can make as much trips as the orders are available from our differnt vendors.
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/faq/faq.component.html</context>
+          <context context-type="linenumber">114</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e43e4ff224eb0af8d624e92c96a5301e4c5a7a37" datatype="html">
+        <source>You order, we get it!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/index/index.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="13a7adfd43130a83945f0e04dc77269ecb8b46ad" datatype="html">
+        <source>Follow your orders
+            with the Inibla App</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/index/index.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="05cb4632942396def357ce373c65d7ace96c2ccf" datatype="html">
+        <source>Watch the progress of your deliveries
+            in real-time and order from anywhere</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/index/index.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9b210b80286b048b78507e9c35a8108947afb9b9" datatype="html">
+        <source>Anything in Addis Ababa city Delivered in minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/index/index.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3f5f542f36aecfbbcde27cd02985e90635b85029" datatype="html">
+        <source>Discover the stores in demand and have us deliver what you want on demand.
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/index/index.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0582fe5c71782d9dc78536340a79deeb655b7470" datatype="html">
+        <source> Hypercharge your business by becoming a partner and leveraging the
+          tools,
+          the tech, and the customer base that brings an entire city to your door.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/index/index.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dd5af2f6a794a6246d7d0d76e159fc3717e4c50f" datatype="html">
+        <source>Partner with
+          us</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/index/index.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="67f15db5af89a86f5799ca5c6ddac1e67469c888" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Right food cooked with natural ingredient<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/index/index.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6335ca6de7b1fd685f517c754e1c17348f3ab275" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>The use of natural best quality products<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/index/index.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d98904f9c94a595bdb90d965fe3d0accf9377b4f" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/> Whether hot or cold food or drinks, we have the best package boxes
+                for you!<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/index/index.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a8a6c6884fa4aa4b7ce16f3b18cbcca966d921ac" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Fastest delivery on your door step<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/index/index.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="adc68e5202e45dc1e99d07ffc7284c7978eac107" datatype="html">
+        <source>Choose a vendor, place the order, set your location</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/index/index.component.html</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a47f9b0ab1e7e93d67bd9c74679b3f952b8d4579" datatype="html">
+        <source>Deliveries are priced depending on your distance from the vendor. Once logged
+          in, you&apos;ll be able to see which vendor you can order from.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/index/index.component.html</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="33e8c7f646f67916ad6427f552d729aac98f824f" datatype="html">
+        <source>
+          Get Started</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/index/index.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2d0bfdedffb93a3d5784f5b17beb21a8f9d25587" datatype="html">
+        <source>Earn points every time you complete an order</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/index/index.component.html</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="05faedba14d6789376c695ce514d7a64cae87d21" datatype="html">
+        <source> Everytime you make a complete order,
+          you will be awarded 10 points,that you can redeem as your delivery fee once you reach a cumulative of 100
+          points.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/index/index.component.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e569e8261f743eb3bb8982c4e7a6aadba191ce94" datatype="html">
+        <source>
+          Learn More</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/index/index.component.html</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cada6af7015ebcd1ab99e0edcea6fb4b5dc92fb4" datatype="html">
+        <source>Clients Gallery</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/index/index.component.html</context>
+          <context context-type="linenumber">95</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fe66da0cc3f8b71ef454b415f47a3ae0e5959ce0" datatype="html">
+        <source>Some of Our Vendors</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/index/index.component.html</context>
+          <context context-type="linenumber">96</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="98d2891f2aecb471b9221777ca2d3bd13fe36bc9" datatype="html">
+        <source>join as vendor</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/join-us/join-us.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d79d6927b9c46444954991d96a32fa674a99d554" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>how it works</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/join-us/join-us.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/join-us/join-us.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="82f58b1622c470ed5ae15f0c5b4f32173e13639f" datatype="html">
+        <source>Let&apos;s get you started</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/join-us/join-us.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="84704762737ebc4e6aa269c3a61e6d2ed2bb746e" datatype="html">
+        <source>How to become a vendor</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/join-us/join-us.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c487e7576cbff7f62b0f64fe0e27c7895141541b" datatype="html">
+        <source>It is EASY, FAST and AFFORDABLE</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/join-us/join-us.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9fcb48b5fba77edc71087ab7189e26714f855e26" datatype="html">
+        <source>Being a vendor partner with Inibla means that you are providing a service that
+              our customers desire and are as committed to providing an exemplary level of customer service and quality
+              as we are. It also means having access to thousands of customers across Addis Ababa without having to
+              spend more money on rental space, marketing, and more</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/join-us/join-us.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="db3b9e84b3aa835979baaef76dbb1838910e7288" datatype="html">
+        <source>1.Apply to be a partner</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/join-us/join-us.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9cafeb2064826ac20f28365bb26c769eb84a6fd7" datatype="html">
+        <source>Use the form provided to tell us more about your business so we can begin the
+          process</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/join-us/join-us.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9cbc682bad71a14d319d086a268224c8a5eac9ad" datatype="html">
+        <source>2.We start the evaluation</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/join-us/join-us.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="32e308003393b2884e452c877a61019fe975ecce" datatype="html">
+        <source>We will evaluate your application and send someone to shop at your premise as
+          a regular customer</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/join-us/join-us.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3dc75f26815d01ac6d675c6b8a159f377e5cb7f4" datatype="html">
+        <source>3.We will contact you</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/join-us/join-us.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bff742ce4926fe10cfc2c954bd71a9f615cf92a9" datatype="html">
+        <source>If the evaluation steps are completed successfully, we will reach out to you with
+          the next steps</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/join-us/join-us.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7f4a1047c2e732bc586dd771563f643c0e4b345f" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>joining as driver<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/join-us/join-us.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="adfd4afba3526805ddc306717c07d6f6688178b5" datatype="html">
+        <source>Join our fleet of riders</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/join-us/join-us.component.html</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5b4e9987ec19a22e7e8e31393b117166d090d6f8" datatype="html">
+        <source>How to become a driver</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/join-us/join-us.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d711b624b7a7cdc0d62c94c6b7cdfa5f4acb4ab8" datatype="html">
+        <source>1. Apply to be a rider</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/join-us/join-us.component.html</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9e43800cc03cf7748aca9ca2c6b400b7b986c7d9" datatype="html">
+        <source>2. Verification of rider</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/join-us/join-us.component.html</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="82e666e6cd0f96bfcf33164c9e9484d9d1d4e728" datatype="html">
+        <source>3. We will contact you</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/join-us/join-us.component.html</context>
+          <context context-type="linenumber">83</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="add444de5a56ae2dd6defe3ebc7f24079cd2fee4" datatype="html">
+        <source>Only riders who pass our
+              verification and onboarding process can join our fleet. All our riders are pre-scanned, trained, have a
+              valid driving license and their bikes meet inibla
+              standards. Our riders enjoy incentives and riders&apos; loyalty program based on their performance.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/join-us/join-us.component.html</context>
+          <context context-type="linenumber">84</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

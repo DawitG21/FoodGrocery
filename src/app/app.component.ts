@@ -8,13 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class AppComponent implements OnInit {
-  title = 'inibla';
+  title = 'iniblaWebsite';
 
   constructor() {
 
     // $(window).on('scroll', () => {
     //   const scroll = $(window).scrollTop();
-
     //   if (scroll >= 80) {
     //     $('#site-header').addClass('nav-fixed');
     //     // When the user scrolls down 20px from the top of the document, show the button

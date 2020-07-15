@@ -3,22 +3,30 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "iniblaWeb": {
+    "iniblaWebsite": {
       "projectType": "application",
       "schematics": {},
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {
+          "am": "src/locale/messages.am.xlf",
+          "fr": "src/locale/messages.fr.xlf",
+          "ci": "src/locale/messages.ci.xlf"
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/iniblaWeb",
+            "outputPath": "dist/iniblaWebsite",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "aot": false,
+            "aot": true,
             "assets": [
               "src/favicon.ico",
               "src/assets"
@@ -33,23 +41,19 @@
           },
           "configurations": {
             "production": {
-              "fileReplacements": [
-                {
-                  "replace": "src/environments/environment.ts",
-                  "with": "src/environments/environment.prod.ts"
-                }
-              ],
+              "fileReplacements": [{
+                "replace": "src/environments/environment.ts",
+                "with": "src/environments/environment.prod.ts"
+              }],
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
               "extractCss": true,
               "namedChunks": false,
-              "aot": true,
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
-              "budgets": [
-                {
+              "budgets": [{
                   "type": "initial",
                   "maximumWarning": "2mb",
                   "maximumError": "5mb"
@@ -60,24 +64,42 @@
                   "maximumError": "10kb"
                 }
               ]
+            },
+            "am": {
+              "localize": ["am"]
+            },
+            "fr": {
+              "localize": ["fr"]
+            },
+            "ci": {
+              "localize": ["ci"]
             }
           }
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "iniblaWeb:build"
+            "browserTarget": "iniblaWebsite:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "iniblaWeb:build:production"
+              "browserTarget": "iniblaWebsite:build:production"
+            },
+            "am": {
+              "browserTarget": "iniblaWebsite:build:am"
+            },
+            "fr": {
+              "browserTarget": "iniblaWebsite:build:fr"
+            },
+            "ci": {
+              "browserTarget": "iniblaWebsite:build:ci"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "iniblaWeb:build"
+            "browserTarget": "iniblaWebsite:build"
           }
         },
         "test": {
@@ -93,7 +115,7 @@
             ],
             "styles": [
               "src/styles.css",
-              "../node_modules/font-awesome/css/font-awesome.css"
+              "node_modules/font-awesome/css/font-awesome.css"
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js"
@@ -117,15 +139,19 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "iniblaWeb:serve"
+            "devServerTarget": "iniblaWebsite:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "iniblaWeb:serve:production"
+              "devServerTarget": "iniblaWebsite:serve:production"
             }
           }
         }
       }
-    }},
-  "defaultProject": "iniblaWeb"
+    }
+  },
+  "defaultProject": "iniblaWebsite",
+  "cli": {
+    "analytics": "3d847e92-3ed1-4ba9-9193-f9b35507cc21"
+  }
 }

@@ -16,18 +16,41 @@
          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
            <ul class="navbar-nav ml-auto">
              <li class="nav-item @@about-active">
-               <a class="nav-link effect-3" routerLink="/about" (click)="topFunction()">About</a>
+               <a class="nav-link effect-3" routerLink="/about" (click)="topFunction()" i18n>About</a>
+               <!-- <a class="nav-link effect-3" routerLink="/about" (click)="topFunction()" translate i18n>{{ 'About' }}</a> -->
              </li>
              <li class="nav-item @@services-active">
-               <a class="nav-link effect-3" routerLink="/joinus" (click)="topFunction()">How It Works</a>
+               <a class="nav-link effect-3" routerLink="/joinus" (click)="topFunction()" i18n>How It Works</a>
              </li>
              <li class="nav-item @@services-active">
-               <a routerLink="/faq" class="nav-link effect-3" (click)="topFunction()">FAQ</a>
+               <a routerLink="/faq" class="nav-link effect-3" (click)="topFunction()" i18n>FAQ</a>
              </li>
              <li class="nav-item">
-               <p href="#domain" class="domain nav-link effect-3 contact-p cursor-pointer" data-toggle="modal" data-target="#DomainModal">
+               <p href="#domain" class="domain nav-link effect-3 contact-p cursor-pointer" data-toggle="modal"
+                 data-target="#DomainModal" i18n>
                  Contact
                </p>
+             </li>
+           </ul>
+           <ul class="navbar-nav ml-auto">
+             <li class="nav-item">
+               <p href="javascript:void(0)" class="dropdown-toggle white" data-toggle="dropdown" role="button"
+                 aria-haspopup="true" aria-expanded="false" i18n>Language<span class="caret"></span></p>
+               <ul class="dropdown-menu">
+                 <li class="nav-item">
+                   <p (click)="changeLanguage('am')" i18n>Amharic</p>
+                 </li><br>
+                 <li class="nav-item">
+                   <p (click)="changeLanguage('en')" style="text-decoration: none;" i18n>
+                     English</p>
+                 </li><br>
+                 <li class="nav-item">
+                   <p (click)="changeLanguage('ci')" i18n>Chinese</p>
+                 </li><br>
+                 <li class="nav-item">
+                   <p (click)="changeLanguage('fr')" i18n>French</p>
+                 </li>
+               </ul>
              </li>
            </ul>
          </div>
