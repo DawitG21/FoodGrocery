@@ -1,61 +1,70 @@
  <!--header-->
  <div class="inibla-top-header">
-   <header id="site-header" class="fixed-top">
-     <div class="container">
-       <nav class="navbar navbar-expand-lg navbar-dark stroke">
-         <a class="navbar-brand inibla-title" routerLink="/" (click)="topFunction()">
-           <img src="assets/images/inibla_white.png" alt="inibla" title="inibla" class="logo-height" />inibla
-         </a>
-         <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
-           data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
-           aria-label="Toggle navigation">
-           <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
-           <span class="navbar-toggler-icon fa icon-close fa-times"></span>
-         </button>
+  <header id="site-header" class="fixed-top">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark stroke">
+        <a class="navbar-brand inibla-title" routerLink="/" (click)="topFunction()">
+          <img src="assets/images/inibla_white.png" alt="inibla" title="inibla" class="logo-height" />inibla
+        </a>
+        <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
+          data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+          <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+        </button>
 
-         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-           <ul class="navbar-nav ml-auto">
-             <li class="nav-item @@about-active">
-               <a class="nav-link effect-3" routerLink="/about" (click)="topFunction()" i18n>About</a>
-               <!-- <a class="nav-link effect-3" routerLink="/about" (click)="topFunction()" translate i18n>{{ 'About' }}</a> -->
-             </li>
-             <li class="nav-item @@services-active">
-               <a class="nav-link effect-3" routerLink="/joinus" (click)="topFunction()" i18n>How It Works</a>
-             </li>
-             <li class="nav-item @@services-active">
-               <a routerLink="/faq" class="nav-link effect-3" (click)="topFunction()" i18n>FAQ</a>
-             </li>
-             <li class="nav-item">
-               <p href="#domain" class="domain nav-link effect-3 contact-p cursor-pointer" data-toggle="modal"
-                 data-target="#DomainModal" i18n>
-                 Contact
-               </p>
-             </li>
-           </ul>
-           <ul class="navbar-nav ml-auto">
-             <li class="nav-item">
-               <p href="javascript:void(0)" class="dropdown-toggle white" data-toggle="dropdown" role="button"
-                 aria-haspopup="true" aria-expanded="false" i18n>Language<span class="caret"></span></p>
-               <ul class="dropdown-menu">
-                 <li class="nav-item">
-                   <p (click)="changeLanguage('am')" i18n>Amharic</p>
-                 </li><br>
-                 <li class="nav-item">
-                   <p (click)="changeLanguage('en')" style="text-decoration: none;" i18n>
-                     English</p>
-                 </li><br>
-                 <li class="nav-item">
-                   <p (click)="changeLanguage('ci')" i18n>Chinese</p>
-                 </li><br>
-                 <li class="nav-item">
-                   <p (click)="changeLanguage('fr')" i18n>French</p>
-                 </li>
-               </ul>
-             </li>
-           </ul>
-         </div>
-       </nav>
-     </div>
-   </header>
- </div>
- <!--/header-->
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item @@about-active">
+              <a class="nav-link effect-3" routerLink="/about" (click)="topFunction()" i18n>About</a>
+              <!-- <a class="nav-link effect-3" routerLink="/about" (click)="topFunction()" translate i18n>{{ 'About' }}</a> -->
+            </li>
+            <li class="nav-item @@services-active">
+              <a class="nav-link effect-3" routerLink="/joinus" (click)="topFunction()" i18n>How It Works</a>
+            </li>
+            <li class="nav-item @@services-active">
+              <a routerLink="/faq" class="nav-link effect-3" (click)="topFunction()" i18n>FAQ</a>
+            </li>
+            <li class="nav-item">
+              <p href="#domain" class="domain nav-link effect-3 contact-p cursor-pointer" data-toggle="modal"
+                data-target="#DomainModal" i18n>
+                Contact
+              </p>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <!-- <li class="nav-item"> -->
+            <!--    <p href="javascript:void(0)" class="dropdown-toggle white" data-toggle="dropdown" role="button"
+                aria-haspopup="true" aria-expanded="false" i18n>English<span class="caret"></span></p>
+              <ul class="dropdown-menu">
+                <li class="nav-item">
+                  <p (click)="changeLanguage('am')" i18n>Amharic</p>
+                </li><br>
+                <li class="nav-item">
+                  <p (click)="changeLanguage('en')" style="text-decoration: none;" i18n>
+                    English</p>
+                </li><br>
+                <li class="nav-item">
+                  <p (click)="changeLanguage('ci')" i18n>Chinese</p>
+                </li><br>
+                <li class="nav-item">
+                  <p (click)="changeLanguage('fr')" i18n>French</p>
+                </li>
+              </ul> -->
+            <div class="mt-locale">|</div>
+            <li class="nav-item @@about-active">
+              <a class="nav-link effect-3" routerLink="/" (click)="topFunction()" i18n>English</a>
+            </li>
+            <div class="mt-locale">|</div>
+            <li class="nav-item @@about-active">
+              <a class="nav-link effect-3" routerLink="/about" (click)="topFunction()" i18n>Amharic</a>
+            </li>
+            <div class="mt-locale">|</div>
+            <!--  </li> -->
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+</div>
+<!--/header-->
