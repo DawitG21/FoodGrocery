@@ -8,8 +8,6 @@
           <context context-type="sourcefile">src/components/header/header.component.html</context>
           <context context-type="linenumber">19</context>
         </context-group>
-        <note priority="1" from="description">Refers to a page link</note>
-        <note priority="1" from="meaning">link</note>
       </trans-unit>
       <trans-unit id="b153bb5e43839ad39ae1b913cb95b0dc9af65191" datatype="html">
         <source>How It Works</source>
@@ -17,8 +15,6 @@
           <context context-type="sourcefile">src/components/header/header.component.html</context>
           <context context-type="linenumber">23</context>
         </context-group>
-        <note priority="1" from="description">Refers to a page link</note>
-        <note priority="1" from="meaning">link</note>
       </trans-unit>
       <trans-unit id="4b6dbf2d92858e82bcf6ae5dbc8dfb4b29d82ad0" datatype="html">
         <source>FAQ</source>
@@ -26,64 +22,37 @@
           <context context-type="sourcefile">src/components/header/header.component.html</context>
           <context context-type="linenumber">26</context>
         </context-group>
-        <note priority="1" from="description">Refers to a page link</note>
-        <note priority="1" from="meaning">link</note>
       </trans-unit>
-      <trans-unit id="62f8ffc20df1542e417e1f6009f06187fceac128" datatype="html">
+      <trans-unit id="9db884f14f1619e87fb94d12bb8cf3b0d4c123b4" datatype="html">
         <source>
-                 Contact
-               </source>
+                Contact
+              </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/header/header.component.html</context>
           <context context-type="linenumber">30</context>
         </context-group>
-        <note priority="1" from="description">Refers to a page link</note>
-        <note priority="1" from="meaning">link</note>
       </trans-unit>
-      <trans-unit id="a8e6260a3376796a38c7a5e1d6a7a845e106fe22" datatype="html">
-        <source>Language<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+      <trans-unit id="a0843de0a64adcc7ee6a946408b6876cd8abdcae" datatype="html">
+        <source>English</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/header/header.component.html</context>
-          <context context-type="linenumber">38</context>
+          <context context-type="linenumber">56</context>
         </context-group>
-        <note priority="1" from="description">Refers to a choosen language</note>
-        <note priority="1" from="meaning">language</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/footer/footer.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="4cff9b06226490b8dce9a26a015eec916c99e07b" datatype="html">
         <source>Amharic</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/header/header.component.html</context>
-          <context context-type="linenumber">41</context>
+          <context context-type="linenumber">60</context>
         </context-group>
-        <note priority="1" from="description">Refers to a choosen language</note>
-        <note priority="1" from="meaning">language</note>
-      </trans-unit>
-      <trans-unit id="8a838c3b8ef533a30d45e12ba2995fa705c2c546" datatype="html">
-        <source>English</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/components/header/header.component.html</context>
-          <context context-type="linenumber">44</context>
+          <context context-type="sourcefile">src/components/footer/footer.component.html</context>
+          <context context-type="linenumber">14</context>
         </context-group>
-        <note priority="1" from="description">Refers to a choosen language</note>
-        <note priority="1" from="meaning">language</note>
-      </trans-unit>
-      <trans-unit id="c08a4b87e44d03394fec0cfdc8043bb0a2b2ec3a" datatype="html">
-        <source>Chinese</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/components/header/header.component.html</context>
-          <context context-type="linenumber">48</context>
-        </context-group>
-        <note priority="1" from="description">Refers to a choosen language</note>
-        <note priority="1" from="meaning">language</note>
-      </trans-unit>
-      <trans-unit id="8293a584b57b870aca184a23bb8039c829acc4cf" datatype="html">
-        <source>French</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/components/header/header.component.html</context>
-          <context context-type="linenumber">51</context>
-        </context-group>
-        <note priority="1" from="description">Refers to a choosen language</note>
-        <note priority="1" from="meaning">language</note>
       </trans-unit>
       <trans-unit id="729754dd19eb9ce0670b0aeb5a6ae60574c2c563" datatype="html">
         <source>Address</source>
@@ -91,8 +60,6 @@
           <context context-type="sourcefile">src/components/footer/footer.component.html</context>
           <context context-type="linenumber">8</context>
         </context-group>
-        <note priority="1" from="description">Refers to a choosen language</note>
-        <note priority="1" from="meaning">language</note>
       </trans-unit>
       <trans-unit id="8c3dd724d03046d0f6c55335a3137554e35d1be8" datatype="html">
         <source>Office 601, 6th Floor, Ras Dashen Building, Addis Ababa, Ethiopia</source>
@@ -100,93 +67,75 @@
           <context context-type="sourcefile">src/components/footer/footer.component.html</context>
           <context context-type="linenumber">9</context>
         </context-group>
-        <note priority="1" from="description">Refers to a choosen language</note>
-        <note priority="1" from="meaning">language</note>
       </trans-unit>
       <trans-unit id="610f20d242b74c790da8ff70aa23ce523c93c1fe" datatype="html">
         <source>Get In Touch</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/footer/footer.component.html</context>
-          <context context-type="linenumber">15</context>
+          <context context-type="linenumber">18</context>
         </context-group>
-        <note priority="1" from="description">Refers to a choosen language</note>
-        <note priority="1" from="meaning">language</note>
       </trans-unit>
       <trans-unit id="256826552274d059918760335f82fe02101baa4f" datatype="html">
         <source>Want to know more about us or have a question? Read our FAQ&apos;s or contact us!</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/footer/footer.component.html</context>
-          <context context-type="linenumber">16</context>
+          <context context-type="linenumber">19</context>
         </context-group>
-        <note priority="1" from="description">Refers to a choosen language</note>
-        <note priority="1" from="meaning">language</note>
       </trans-unit>
       <trans-unit id="035b1a809d71de4617554b294d45ea3e9d0e871f" datatype="html">
         <source>+251-90-414-9609</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/footer/footer.component.html</context>
-          <context context-type="linenumber">18</context>
+          <context context-type="linenumber">21</context>
         </context-group>
-        <note priority="1" from="description">Refers to a choosen language</note>
-        <note priority="1" from="meaning">language</note>
       </trans-unit>
       <trans-unit id="e7f09eb3a812a7bd677b22a04954867d952d7a23" datatype="html">
         <source>Opening Hours</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/footer/footer.component.html</context>
-          <context context-type="linenumber">22</context>
+          <context context-type="linenumber">25</context>
         </context-group>
-        <note priority="1" from="description">Refers to a choosen language</note>
-        <note priority="1" from="meaning">language</note>
       </trans-unit>
       <trans-unit id="f6032501b96ecb76f74e8942d56805a318523fff" datatype="html">
         <source>Monday - Friday</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/footer/footer.component.html</context>
-          <context context-type="linenumber">23</context>
+          <context context-type="linenumber">26</context>
         </context-group>
-        <note priority="1" from="description">Refers to a choosen language</note>
-        <note priority="1" from="meaning">language</note>
       </trans-unit>
       <trans-unit id="a3b129d8a20b984ea8b999707aa51b37bac9ad7b" datatype="html">
         <source>09:00 am to 10:00 pm</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/footer/footer.component.html</context>
-          <context context-type="linenumber">24</context>
+          <context context-type="linenumber">27</context>
         </context-group>
-        <note priority="1" from="description">Refers to a choosen language</note>
-        <note priority="1" from="meaning">language</note>
       </trans-unit>
       <trans-unit id="3b586c9f2e811c6cc61a6ced8436c0b2564b8bb3" datatype="html">
         <source>After Office Hours<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>24/7 </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/footer/footer.component.html</context>
-          <context context-type="linenumber">26</context>
+          <context context-type="linenumber">29</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ef3828e60c35baa03c0f44904bed0e0b008a9d33" datatype="html">
         <source>Download App</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/footer/footer.component.html</context>
-          <context context-type="linenumber">29</context>
+          <context context-type="linenumber">32</context>
         </context-group>
-        <note priority="1" from="description">Refers to a choosen language</note>
-        <note priority="1" from="meaning">language</note>
       </trans-unit>
       <trans-unit id="af295e3b076b0d8c34dcc2bb54e470f8dd88894e" datatype="html">
         <source>© 2020 inibla. All rights reserved</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/footer/footer.component.html</context>
-          <context context-type="linenumber">41</context>
+          <context context-type="linenumber">44</context>
         </context-group>
-        <note priority="1" from="description">Refers to a choosen language</note>
-        <note priority="1" from="meaning">language</note>
       </trans-unit>
       <trans-unit id="57522efe009a0409ade6328c4dd29a26233f67b3" datatype="html">
         <source><x id="START_SMALL_TEXT" ctype="x-small" equiv-text="&lt;small&gt;"/>Terms of Service<x id="CLOSE_SMALL_TEXT" ctype="x-small" equiv-text="&lt;/small&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/footer/footer.component.html</context>
-          <context context-type="linenumber">42</context>
+          <context context-type="linenumber">45</context>
         </context-group>
       </trans-unit>
       <trans-unit id="262d902fa6713da6d7709ef83f403d90380fa029" datatype="html">
@@ -484,8 +433,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="ee78978b744770911ada368fc66b0ad2764220e3" datatype="html">
-        <source>Do you charge for delivery?
-              ?</source>
+        <source>Do you charge for delivery?</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/faq/faq.component.html</context>
           <context context-type="linenumber">46</context>

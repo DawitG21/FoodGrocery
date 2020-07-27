@@ -1,9 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-// declare var jQuery: any;
 import * as $ from 'jquery';
-import { Subscription } from 'rxjs/internal/Subscription';
+/* import { Subscription } from 'rxjs/internal/Subscription';
 import { TranslateService } from '@ngx-translate/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute } from '@angular/router'; */
 
 @Component({
   selector: 'app-header',
@@ -12,28 +11,30 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class HeaderComponent implements OnInit {
 
-  private subscription: Subscription;
+  // private subscription: Subscription;
+  enSite = 'https://ebirr.com/';
+  amSite = 'http://inibla.com/';
 
   constructor(
-    private translate: TranslateService,
-    private activatedRoute: ActivatedRoute) {
-
-    translate.addLangs(['am', 'fr', 'ci', 'en']);
-    translate.setDefaultLang('en');
-    const browserLang = translate.getBrowserLang();
-    translate.use(browserLang.match(/am|fr|ci|en/) ? browserLang : 'en');
-
+    /* private translate: TranslateService,
+    private activatedRoute: ActivatedRoute */
+  ) {
+    /*
+        translate.addLangs(['am', 'fr', 'ci', 'en']);
+        translate.setDefaultLang('en');
+        const browserLang = translate.getBrowserLang();
+        translate.use(browserLang.match(/am|fr|ci|en/) ? browserLang : 'en'); */
   }
 
   ngOnInit() {
     // subscribe to router event
-    this.subscription = this.activatedRoute.queryParams.subscribe(
+    /* this.subscription = this.activatedRoute.queryParams.subscribe(
       (param: any) => {
         const locale = param.locale;
         if (locale !== undefined) {
           this.translate.use(locale);
         }
-      });
+      }); */
 
     // disable body scroll which navbar is in active
     $(() => {
@@ -61,10 +62,10 @@ export class HeaderComponent implements OnInit {
   }
 
   // tslint:disable-next-line: use-lifecycle-interface
-  ngOnDestroy() {
-    // prevent memory leak by unsubscribing
-    this.subscription.unsubscribe();
-  }
+  /*  ngOnDestroy() {
+     // prevent memory leak by unsubscribing
+     this.subscription.unsubscribe();
+   } */
 
   // // When the user clicks on the button, scroll to the top of the document
   topFunction() {
@@ -72,8 +73,17 @@ export class HeaderComponent implements OnInit {
     document.documentElement.scrollTop = 0;
   }
 
-  changeLanguage(lang: string) {
-    this.translate.use(lang);
-    console.log('language clicked');
+  /*  changeLanguage(lang: string) {
+     this.translate.use(lang);
+   } */
+
+  toEnSite() {
+    // window.open(this.enSite);
+    window.location.href = this.enSite;
+  }
+
+  toAmSite() {
+    // window.open(this.amSite);
+    window.location.href = this.amSite;
   }
 }
