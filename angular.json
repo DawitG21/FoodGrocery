@@ -13,8 +13,7 @@
         "sourceLocale": "en-US",
         "locales": {
           "am": "src/locale/messages.am.xlf",
-          "fr": "src/locale/messages.fr.xlf",
-          "ci": "src/locale/messages.ci.xlf"
+          "fr": "src/locale/messages.fr.xlf"          
         }
       },
       "architect": {
@@ -70,9 +69,6 @@
             },
             "fr": {
               "localize": ["fr"]
-            },
-            "ci": {
-              "localize": ["ci"]
             }
           }
         },
@@ -90,9 +86,6 @@
             },
             "fr": {
               "browserTarget": "iniblawebsite:build:fr"
-            },
-            "ci": {
-              "browserTarget": "iniblawebsite:build:ci"
             }
           }
         },
@@ -150,9 +143,6 @@
             },
             "fr": {
               "devServerTarget": "iniblawebsite:serve:fr"
-            },
-            "ci": {
-              "devServerTarget": "iniblawebsite:serve:ci"
             }
           }
         }

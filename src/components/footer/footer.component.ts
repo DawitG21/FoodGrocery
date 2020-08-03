@@ -9,8 +9,7 @@ export class FooterComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
-  }
+  ngOnInit() { }
 
   // // When the user clicks on the button, scroll to the top of the document
   topFunction() {

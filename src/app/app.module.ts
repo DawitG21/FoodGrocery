@@ -12,14 +12,6 @@ import { ContactComponent } from '../components/contact/contact.component';
 import { ServicetermsComponent } from '../components/serviceterms/serviceterms.component';
 import { FooterComponent } from '../components/footer/footer.component';
 import { APP_BASE_HREF, PlatformLocation } from '@angular/common';
-/* import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
-import { TranslateHttpLoader } from '@ngx-translate/http-loader'; */
-
-/* export function createTranslateLoader(http: HttpClient) {
-  // return new TranslateHttpLoader(http, './assets/i18n/', '.json');
-   return new TranslateHttpLoader(http, './locale/messages.', '.xlf');
-} */
 
 @NgModule({
   declarations: [
@@ -35,14 +27,6 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader'; */
   ],
   imports: [
     BrowserModule,
-    /*  HttpClientModule,
-     TranslateModule.forRoot({
-       loader: {
-         provide: TranslateLoader,
-         useFactory: (createTranslateLoader),
-         deps: [HttpClient]
-       }
-     }), */
     AppRoutingModule
   ],
   // providers: [{ provide: LOCALE_ID, useValue: 'am' }],
