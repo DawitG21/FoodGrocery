@@ -76,16 +76,16 @@ export class HeaderComponent implements OnInit {
 
   /*  changeLanguage(lang: string) {
      this.translate.use(lang);
-   } */
+   } */ 
 
   toEnSite() {
     // window.open(this.enSite);
-    window.location.href = this.enSite;
+    //window.location.href = this.enSite;
   }
 
   toAmSite() {
     // window.open(this.amSite);
-    window.location.href = this.amSite;
+   // window.location.href = this.amSite;
     localStorage.setItem('amET', this.amSite);
   }
 }
