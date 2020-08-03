@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Inject, LOCALE_ID } from '@angular/core';
 import * as $ from 'jquery';
+import { APP_BASE_HREF, Location } from '@angular/common';
 /* import { Subscription } from 'rxjs/internal/Subscription';
 import { TranslateService } from '@ngx-translate/core';
 import { ActivatedRoute } from '@angular/router'; */
@@ -9,15 +10,22 @@ import { ActivatedRoute } from '@angular/router'; */
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
 })
+
 export class HeaderComponent implements OnInit {
 
+  languages = [
+    { code: 'am', label: 'Amharic' },
+    { code: 'en', label: 'English' },
+  ];
+
   // private subscription: Subscription;
-  enSite = 'https://inibla.com/';
-  amSite = 'http://localhost:4200/';
 
   constructor(
     /* private translate: TranslateService,
     private activatedRoute: ActivatedRoute */
+    @Inject(LOCALE_ID) public localeId: string,
+    @Inject(APP_BASE_HREF) public baseHref: string,
+    public location: Location
   ) {
     /*
         translate.addLangs(['am', 'fr', 'ci', 'en']);
@@ -25,6 +33,9 @@ export class HeaderComponent implements OnInit {
         const browserLang = translate.getBrowserLang();
         translate.use(browserLang.match(/am|fr|ci|en/) ? browserLang : 'en');
         */
+    console.log('localeID', localeId);
+    console.log('baseHref', baseHref);
+    console.log('location', location);
   }
 
   ngOnInit() {
@@ -76,16 +87,12 @@ export class HeaderComponent implements OnInit {
 
   /*  changeLanguage(lang: string) {
      this.translate.use(lang);
-   } */ 
+   } */
 
-  toEnSite() {
-    // window.open(this.enSite);
-    //window.location.href = this.enSite;
+  public languageChanged(event: any) {
+    const value = event.target.value;
+    // this.language = value;
+    console.log(value);
   }
 
-  toAmSite() {
-    // window.open(this.amSite);
-   // window.location.href = this.amSite;
-    localStorage.setItem('amET', this.amSite);
-  }
 }

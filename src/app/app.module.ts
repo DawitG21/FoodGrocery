@@ -11,6 +11,7 @@ import { FaqComponent } from '../components/faq/faq.component';
 import { ContactComponent } from '../components/contact/contact.component';
 import { ServicetermsComponent } from '../components/serviceterms/serviceterms.component';
 import { FooterComponent } from '../components/footer/footer.component';
+import { APP_BASE_HREF, PlatformLocation } from '@angular/common';
 /* import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader'; */
@@ -34,17 +35,24 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader'; */
   ],
   imports: [
     BrowserModule,
-   /*  HttpClientModule,
-    TranslateModule.forRoot({
-      loader: {
-        provide: TranslateLoader,
-        useFactory: (createTranslateLoader),
-        deps: [HttpClient]
-      }
-    }), */
+    /*  HttpClientModule,
+     TranslateModule.forRoot({
+       loader: {
+         provide: TranslateLoader,
+         useFactory: (createTranslateLoader),
+         deps: [HttpClient]
+       }
+     }), */
     AppRoutingModule
   ],
-  providers: [],
+  // providers: [{ provide: LOCALE_ID, useValue: 'am' }],
+  providers: [
+    {
+      provide: APP_BASE_HREF,
+      useFactory: (s: PlatformLocation) => s.getBaseHrefFromDOM(),
+      deps: [PlatformLocation]
+    }
+  ],
   bootstrap: [AppComponent]
 })
 
