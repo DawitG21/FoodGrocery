@@ -19,11 +19,11 @@ export class IndexComponent implements OnInit {
 
   ngOnInit() {
     console.log(this.am);
-    if (this.am !== '') {
+   /*  if (this.am !== '') {
       window.location.href = this.amSite;
     } else{
       // window.location.href = this.enSite;
-    }
+    } */
 
   }
 
