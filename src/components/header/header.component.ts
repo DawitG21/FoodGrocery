@@ -12,8 +12,8 @@ import { ActivatedRoute } from '@angular/router'; */
 export class HeaderComponent implements OnInit {
 
   // private subscription: Subscription;
-  enSite = 'https://ebirr.com/';
-  amSite = 'http://inibla.com/';
+  enSite = 'https://inibla.com/';
+  amSite = 'http://localhost:4200/';
 
   constructor(
     /* private translate: TranslateService,
@@ -23,7 +23,8 @@ export class HeaderComponent implements OnInit {
         translate.addLangs(['am', 'fr', 'ci', 'en']);
         translate.setDefaultLang('en');
         const browserLang = translate.getBrowserLang();
-        translate.use(browserLang.match(/am|fr|ci|en/) ? browserLang : 'en'); */
+        translate.use(browserLang.match(/am|fr|ci|en/) ? browserLang : 'en');
+        */
   }
 
   ngOnInit() {
@@ -85,5 +86,6 @@ export class HeaderComponent implements OnInit {
   toAmSite() {
     // window.open(this.amSite);
     window.location.href = this.amSite;
+    localStorage.setItem('amET', this.amSite);
   }
 }

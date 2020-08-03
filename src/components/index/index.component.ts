@@ -6,13 +6,26 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './index.component.html',
   styleUrls: ['./index.component.css']
 })
+
 export class IndexComponent implements OnInit {
+
+  amSite = 'http://inibla.com/';
+  enSite = 'http://ebirr.com/';
+  am = localStorage.getItem('amET');
 
   constructor(
     /* public route: Router */
-    ) { }
+  ) { }
 
-  ngOnInit() { }
+  ngOnInit() {
+    console.log(this.am);
+    if (this.am !== '') {
+      window.location.href = this.amSite;
+    } else{
+      // window.location.href = this.enSite;
+    }
+
+  }
 
   topFunction() {
     document.body.scrollTop = 0;
