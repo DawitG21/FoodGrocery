@@ -11,7 +11,7 @@ import { APP_BASE_HREF, Location } from '@angular/common';
 export class HeaderComponent implements OnInit {
 
   languages = [
-    { code: 'en', label: 'English' },
+    { code: 'en-US', label: 'English' },
     { code: 'am', label: 'Amharic' },
   ];
 
