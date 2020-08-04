@@ -38,7 +38,9 @@
                  <span *ngIf="lang.code !== localeId">
                    <a href="/{{lang.code}}/" class="nav-link effect-3" (click)="topFunction()">{{lang.label}}</a>
                  </span>
-                 <span *ngIf=" lang.code===localeId">{{lang.label}} </span>
+                 <span *ngIf=" lang.code===localeId">
+                   <a href="/{{lang.code}}/" class="nav-link effect-3" (click)="topFunction()">{{lang.label}}</a>
+                 </span>
                </li>
              </ng-template>
            </ul>
