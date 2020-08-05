@@ -7,18 +7,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./index.component.css']
 })
 
-export class IndexComponent implements OnInit { 
+export class IndexComponent implements OnInit {
+
+  /* preferredLocale: string; */
 
   constructor(
-    /* public route: Router */
+   /*  public route: Router */
   ) { }
 
-  ngOnInit() {}
+  ngOnInit() { }
 
   topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
-    /* this.route.navigate(['/faq']); */
+   /*  this.route.navigate([this.preferredLocale]); */
   }
 
 }

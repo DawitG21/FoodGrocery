@@ -1,6 +1,7 @@
 import { Component, OnInit, Inject, LOCALE_ID } from '@angular/core';
 import * as $ from 'jquery';
 import { APP_BASE_HREF, Location } from '@angular/common';
+import { timers } from 'jquery';
 
 @Component({
   selector: 'app-header',
@@ -20,9 +21,7 @@ export class HeaderComponent implements OnInit {
     @Inject(APP_BASE_HREF) public baseHref: string,
     public location: Location
   ) {
-    console.log('localeID', localeId);
-    console.log('baseHref', baseHref);
-    console.log('location', location);
+    // this.cacheLocalePreference();
   }
 
   ngOnInit() {
@@ -57,10 +56,26 @@ export class HeaderComponent implements OnInit {
     document.documentElement.scrollTop = 0;
   }
 
-  public languageChanged(event: any) {
-    const value = event.target.value;
-    // this.language = value;
-    console.log(value);
+  cacheLocalePreference() {
+    if (this.localeId === 'en-US') {
+      // console.log('localeID', this.localeId);
+      // console.log('baseHref', this.baseHref);
+      localStorage.removeItem('am');
+      localStorage.setItem('en-US', location.href);
+      console.log('enPath', location.href);
+    } else if (this.localeId === 'am') {
+      // console.log('localeID', this.localeId);
+      // console.log('baseHref', this.baseHref);
+      localStorage.removeItem('en-US');
+      localStorage.setItem('am', location.href);
+      console.log('amPath', location.href);
+    }
   }
+
+  /*  public languageChanged(event: any) {
+     const value = event.target.value;
+     this.language = value;
+     console.log(value);
+   } */
 
 }
