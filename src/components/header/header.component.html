@@ -33,13 +33,17 @@
            </ul>
            <ul class="navbar-nav ml-auto">
              <ng-template ngFor let-lang [ngForOf]="languages">
-               <div class="mt-locale">|</div>
+               <!-- <div class="mt-locale">|</div> -->
                <li class="nav-item @@about-active">
+                <!--  <span *ngIf="lang.code === localeId">
+                   <a href="/inibla/{{lang.code}}/" class="nav-link effect-3"
+                     (click)="topFunction();cacheLocalePreference()"><span
+                       class="fa fa-flag"></span>&nbsp;{{lang.label}}</a>
+                 </span> -->
                  <span *ngIf="lang.code !== localeId">
-                   <a href="/{{lang.code}}/" class="nav-link effect-3" (click)="topFunction();cacheLocalePreference()">{{lang.label}}</a>
-                 </span>
-                 <span *ngIf=" lang.code===localeId">
-                   <a href="/{{lang.code}}/" class="nav-link effect-3" (click)="topFunction();cacheLocalePreference()">{{lang.label}}</a>
+                   <a href="/inibla/{{lang.code}}/" class="nav-link effect-3"
+                     (click)="topFunction();cacheLocalePreference()"><span
+                       class="fa fa-flag"></span>&nbsp;{{lang.label}}</a>
                  </span>
                </li>
              </ng-template>
