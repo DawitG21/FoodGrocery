@@ -58,10 +58,8 @@ export class HeaderComponent implements OnInit {
   cacheLocalePreference() {
     if (this.localeId === 'en-US') {
       localStorage.setItem('localePath', location.href);
-      console.log('localePathHead', location.href);
     } else if (this.localeId === 'am') {
       localStorage.setItem('localePath', location.href);
-      console.log('localePathHead', location.href);
     }
   }
 
