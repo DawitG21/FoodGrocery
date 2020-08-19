@@ -9,6 +9,7 @@ import { ServicetermsComponent } from 'src/components/serviceterms/serviceterms.
 
 const routes: Routes = [
   { path: '', component: IndexComponent },
+  /* { path: 'inibla', redirectTo: 'http://localhost' }, */
   { path: 'about', component: AboutComponent },
   { path: 'joinus', component: JoinUsComponent },
   { path: 'faq', component: FaqComponent },

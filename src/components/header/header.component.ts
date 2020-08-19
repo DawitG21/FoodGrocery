@@ -20,8 +20,16 @@ export class HeaderComponent implements OnInit {
     @Inject(LOCALE_ID) public localeId: string,
     @Inject(APP_BASE_HREF) public baseHref: string,
     public location: Location
-  ) {
+  ) { }
+
+  cacheLocalePreference() {
+    if (this.localeId === 'en-US') {
+      localStorage.setItem('locale', this.baseHref);
+    } else if (this.localeId === 'am') {
+      localStorage.setItem('locale', this.baseHref);
+    }
   }
+
 
   ngOnInit() {
     // disable body scroll which navbar is in active
@@ -55,12 +63,6 @@ export class HeaderComponent implements OnInit {
     document.documentElement.scrollTop = 0;
   }
 
-  cacheLocalePreference() {
-    if (this.localeId === 'en-US') {
-      localStorage.setItem('localePath', location.href);
-    } else if (this.localeId === 'am') {
-      localStorage.setItem('localePath', location.href);
-    }
-  }
+
 
 }

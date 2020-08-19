@@ -10,7 +10,8 @@ import { APP_BASE_HREF, Location } from '@angular/common';
 
 export class IndexComponent implements OnInit {
 
-  localePath: any;
+  storedlocale: any;
+  baseUrl: string;
   defaultPathDev: string;
   defaultPathLive: string;
 
@@ -20,26 +21,30 @@ export class IndexComponent implements OnInit {
     @Inject(LOCALE_ID) public localeId: string,
     @Inject(APP_BASE_HREF) public baseHref: string
   ) {
+    this.baseUrl = 'http://localhost';
     this.defaultPathDev = 'http://localhost:4200';
-    this.defaultPathLive = 'http://localhost/live';
-    this.localePath = localStorage.getItem('localePath');
-
-    console.log('baseHref', baseHref);
-    console.log('location', location);
-    console.log('localeID', localeId);
-    console.log('localePath', this.localePath);
+    this.defaultPathLive = 'http://localhost/inibla';
+    this.storedlocale = localStorage.getItem('locale');
+    console.log('storedlocale', this.storedlocale);
   }
 
   ngOnInit() {
-  /*   if (this.localePath !== null) {
-      if (location.href === this.localePath) {
+    if (this.storedlocale !== null) {
+      if (this.baseHref === this.storedlocale) {
+        //console.log('baseHref', this.baseHref);
+        //console.log('location', location);
+        //console.log('localeID', this.localeId);        
         return;
-      } else {
-        window.location.href = this.localePath;
+      } else if (this.baseHref !== this.storedlocale) {
+        window.location.href = this.baseUrl + this.storedlocale;
+        //console.log('baseHref', this.baseHref);
+        //console.log('location', location);
+        //console.log('localeID', this.localeId);
       }
     } else {
+      // localStorage.setItem('locale', this.baseHref);
       window.location.href = this.defaultPathDev;
-    } */
+    }
   }
 
   topFunction() {
