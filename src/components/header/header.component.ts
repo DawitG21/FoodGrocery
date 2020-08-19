@@ -74,6 +74,9 @@ export class HeaderComponent implements OnInit {
   }
 
   gotoLocale(lang: any): void {
+    // close any dialog window
+
+    
     // redirect if selected lang is different from current locale
     if (lang.code !== this.localeId) {
       this.topFunction();
