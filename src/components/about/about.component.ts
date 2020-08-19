@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Location } from '@angular/common';
+
 @Component({
   selector: 'app-about',
   templateUrl: './about.component.html',
@@ -8,8 +8,7 @@ import { Location } from '@angular/common';
 
 export class AboutComponent implements OnInit {
 
-  constructor(public location: Location) {
-    console.log('abc', this.location.path());
+  constructor() {
   }
 
   ngOnInit() { }

@@ -34,7 +34,7 @@
            <ul class="navbar-nav ml-auto">
              <ng-container *ngFor="let lang of languages">
                <li class="nav-item @@about-active">
-                 <a href="/inibla/{{lang.code}}/" class="nav-link effect-3" (click)="topFunction();cacheLocalePreference()">
+                 <a class="nav-link effect-3" (click)="gotoLocale(lang)">
                   <span class="fa fa-flag"></span>&nbsp;{{lang.label}}</a>
                </li>
              </ng-container>

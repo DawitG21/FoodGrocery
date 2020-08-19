@@ -1,6 +1,6 @@
 import { Component, OnInit, Inject, LOCALE_ID } from '@angular/core';
 import * as $ from 'jquery';
-import { APP_BASE_HREF, Location } from '@angular/common';
+import { APP_BASE_HREF, PlatformLocation } from '@angular/common';
 import { timers } from 'jquery';
 
 @Component({
@@ -16,22 +16,32 @@ export class HeaderComponent implements OnInit {
     { code: 'am', label: 'Amharic' },
   ];
 
+  storedlocale: string;
+
   constructor(
     @Inject(LOCALE_ID) public localeId: string,
     @Inject(APP_BASE_HREF) public baseHref: string,
-    public location: Location
-  ) { }
+    public location: PlatformLocation
+  ) {
+    this.storedlocale = localStorage.getItem('locale');
+  }
 
-  cacheLocalePreference() {
-    if (this.localeId === 'en-US') {
-      localStorage.setItem('locale', this.baseHref);
-    } else if (this.localeId === 'am') {
-      localStorage.setItem('locale', this.baseHref);
-    }
+  cacheLocalePreference(locale) {
+    localStorage.setItem('locale', locale);
   }
 
 
   ngOnInit() {
+    // stored locale exists
+    console.log(this.storedlocale, this.localeId);
+    if (this.storedlocale && this.storedlocale !== this.localeId) {
+      console.log('redirecting');
+      let port = this.location.port.length > 0 ? `:${this.location.port}` : '';
+      let url = `${this.location.protocol}//${this.location.hostname}${port}${this.baseHref}${this.storedlocale}${this.location.pathname}`;
+      console.log(url);
+      // window.location.href = url;
+    }
+
     // disable body scroll which navbar is in active
     $(() => {
       $('.navbar-toggler').on('click', () => {
@@ -63,6 +73,16 @@ export class HeaderComponent implements OnInit {
     document.documentElement.scrollTop = 0;
   }
 
+  gotoLocale(lang: any): void {
+    // redirect if selected lang is different from current locale
+    if (lang.code !== this.localeId) {
+      this.topFunction();
+      this.cacheLocalePreference(lang.code);
 
+      let port = this.location.port.length > 0 ? `:${this.location.port}` : '';
+      let url = `${this.location.protocol}//${this.location.hostname}${port}${this.baseHref}${lang.code}${this.location.pathname}`;
+      window.location.href = url;
+    }
+  }
 
 }

@@ -7,7 +7,7 @@
     "build": "ng build",
     "build-i18n": "npm run build-i18n-am && npm run build-i18n-fr",
     "build-i18n-am": "ng build --configuration=am",
-    "build-i18n-fr": "ng build --configuration=fr",    
+    "build-i18n-fr": "ng build --configuration=fr",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
