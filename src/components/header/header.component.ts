@@ -1,7 +1,6 @@
 import { Component, OnInit, Inject, LOCALE_ID } from '@angular/core';
 import * as $ from 'jquery';
-import { APP_BASE_HREF, PlatformLocation } from '@angular/common';
-import { timers } from 'jquery';
+import { LocaleService } from 'src/providers/locale.service';
 
 @Component({
   selector: 'app-header',
@@ -16,33 +15,45 @@ export class HeaderComponent implements OnInit {
     { code: 'am', label: 'Amharic' },
   ];
 
-  storedlocale: string;
-
   constructor(
-    @Inject(LOCALE_ID) public localeId: string,
-    @Inject(APP_BASE_HREF) public baseHref: string,
-    public location: PlatformLocation
-  ) {
-    this.storedlocale = localStorage.getItem('locale');
+    @Inject(LOCALE_ID) private localeId: string,
+    private localeService: LocaleService,
+  ) { }
+
+  ngOnInit() {
+    this.checkforStoredLocale();
+    this.toggleNavbar();
   }
 
-  cacheLocalePreference(locale) {
+  checkforStoredLocale() {
+    // stored locale exists
+    // if (this.storedlocale && this.storedlocale === this.localeId) {
+    if (this.localeService.storedlocale && this.localeService.storedlocale !== this.localeId) {
+      this.localeService.redirectToStoredLocale();
+    }
+    // } 
+  }
+
+  cacheLocalePreference(locale: any) {
     localStorage.setItem('locale', locale);
   }
 
-
-  ngOnInit() {
-    // stored locale exists
-    console.log(this.storedlocale, this.localeId);
-    if (this.storedlocale && this.storedlocale !== this.localeId) {
-      console.log('redirecting');
-      let port = this.location.port.length > 0 ? `:${this.location.port}` : '';
-      let url = `${this.location.protocol}//${this.location.hostname}${port}${this.baseHref}${this.storedlocale}${this.location.pathname}`;
-      console.log(url);
-      // window.location.href = url;
+  gotoLocale(lang: any): void {
+    // redirect if selected lang is different from current locale
+    if (lang.code !== this.localeId) {
+      this.topFunction();
+      this.cacheLocalePreference(lang.code);
+      this.localeService.switchLocale(lang);
     }
+  }
 
-    // disable body scroll which navbar is in active
+  topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
+  toggleNavbar() {
+    // disable body scroll when navbar is in active
     $(() => {
       $('.navbar-toggler').on('click', () => {
         $('body').toggleClass('noscroll');
@@ -65,27 +76,6 @@ export class HeaderComponent implements OnInit {
       });
     });
 
-  }
-
-  // When the user clicks on the button, scroll to the top of the document
-  topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-  }
-
-  gotoLocale(lang: any): void {
-    // close any dialog window
-
-    
-    // redirect if selected lang is different from current locale
-    if (lang.code !== this.localeId) {
-      this.topFunction();
-      this.cacheLocalePreference(lang.code);
-
-      let port = this.location.port.length > 0 ? `:${this.location.port}` : '';
-      let url = `${this.location.protocol}//${this.location.hostname}${port}${this.baseHref}${lang.code}${this.location.pathname}`;
-      window.location.href = url;
-    }
   }
 
 }

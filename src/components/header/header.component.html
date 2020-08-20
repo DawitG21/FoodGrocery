@@ -32,7 +32,7 @@
              </li>
            </ul>
            <ul class="navbar-nav ml-auto">
-             <ng-container *ngFor="let lang of languages">
+             <ng-container *ngFor="let lang of languages"> <!-- *ngIf="lang.code !== localeId" -->
                <li class="nav-item @@about-active">
                  <a class="nav-link effect-3" (click)="gotoLocale(lang)">
                   <span class="fa fa-flag"></span>&nbsp;{{lang.label}}</a>
