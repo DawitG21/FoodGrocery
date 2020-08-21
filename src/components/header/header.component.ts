@@ -11,9 +11,11 @@ import { timers } from 'jquery';
 
 export class HeaderComponent implements OnInit {
 
+  // TODO: specify an interface type for languages
   languages = [
-    { code: 'en-US', label: 'English' },
     { code: 'am', label: 'Amharic' },
+    { code: 'en-US', label: 'English' },
+    { code: 'fr', label: 'French' },
   ];
 
   storedlocale: string;
@@ -26,7 +28,7 @@ export class HeaderComponent implements OnInit {
     this.storedlocale = localStorage.getItem('locale');
   }
 
-  cacheLocalePreference(locale) {
+  cacheLocalePreference(locale: string) {
     localStorage.setItem('locale', locale);
   }
 
@@ -92,7 +94,7 @@ export class HeaderComponent implements OnInit {
   }
 
   gotoLocale(lang: any): void {
-    // close any dialog window
+    // TODO: close any dialog window
 
     
     // redirect if selected lang is different from current locale
