@@ -40,16 +40,16 @@ export class HeaderComponent implements OnInit {
       console.log('redirecting');
       
       let langExist = false;
-      for (let index = 0; index < this.languages.length; index++) {
-        const element = this.languages[index];
+      // for (let index = 0; index < this.languages.length; index++) {
+      //   const element = this.languages[index];
 
         // navigating from existing locale e.g. /am/ or /inibla/am/
-        if(this.baseHref.indexOf(`/${element.code}/`) !== -1) {
-          this.baseHref = this.baseHref.replace(element.code, this.storedlocale);
+        if(this.baseHref.indexOf(`/${this.localeId}/`) !== -1) {
+          this.baseHref = this.baseHref.replace(this.localeId, this.storedlocale);
           langExist = true;
-          break;
+          // break;
         }
-      }
+      // }
 
       // navigating from root baseHref e.g / or /inibla/
       if(!langExist) {
@@ -103,16 +103,16 @@ export class HeaderComponent implements OnInit {
       this.cacheLocalePreference(lang.code);
 
       let langExist = false;
-      for (let index = 0; index < this.languages.length; index++) {
-        const element = this.languages[index];
+      // for (let index = 0; index < this.languages.length; index++) {
+      //   const element = this.languages[index];
 
         // navigating from existing locale e.g. /am/ or /inibla/am/
-        if(this.baseHref.indexOf(`/${element.code}/`) !== -1) {
-          this.baseHref = this.baseHref.replace(element.code, lang.code);
+        if(this.baseHref.indexOf(`/${this.localeId}/`) !== -1) {
+          this.baseHref = this.baseHref.replace(this.localeId, lang.code);
           langExist = true;
-          break;
+          // break;
         }
-      }
+      // }
 
       // navigating from root baseHref e.g / or /inibla/
       if(!langExist) {
