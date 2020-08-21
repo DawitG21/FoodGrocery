@@ -1,6 +1,6 @@
 import { Component, OnInit, Inject, LOCALE_ID } from '@angular/core';
+import { APP_BASE_HREF, PlatformLocation } from '@angular/common';
 import * as $ from 'jquery';
-import { LocaleService } from 'src/providers/locale.service';
 
 @Component({
   selector: 'app-header',
@@ -10,50 +10,58 @@ import { LocaleService } from 'src/providers/locale.service';
 
 export class HeaderComponent implements OnInit {
 
+  // TODO: specify an interface type for languages
   languages = [
-    { code: 'en-US', label: 'English' },
     { code: 'am', label: 'Amharic' },
+    { code: 'en-US', label: 'English' },
+    { code: 'fr', label: 'French' },
   ];
 
+  storedlocale: string;
+
   constructor(
-    @Inject(LOCALE_ID) private localeId: string,
-    private localeService: LocaleService,
-  ) { }
-
-  ngOnInit() {
-    this.checkforStoredLocale();
-    this.toggleNavbar();
+    @Inject(LOCALE_ID) public localeId: string,
+    @Inject(APP_BASE_HREF) public baseHref: string,
+    public location: PlatformLocation
+  ) {
+    this.storedlocale = localStorage.getItem('locale');
   }
 
-  checkforStoredLocale() {
-    // stored locale exists
-    // if (this.storedlocale && this.storedlocale === this.localeId) {
-    if (this.localeService.storedlocale && this.localeService.storedlocale !== this.localeId) {
-      this.localeService.redirectToStoredLocale();
-    }
-    // } 
-  }
-
-  cacheLocalePreference(locale: any) {
+  cacheLocalePreference(locale: string) {
     localStorage.setItem('locale', locale);
   }
 
-  gotoLocale(lang: any): void {
-    // redirect if selected lang is different from current locale
-    if (lang.code !== this.localeId) {
-      this.topFunction();
-      this.cacheLocalePreference(lang.code);
-      this.localeService.switchLocale(lang);
+
+  ngOnInit() {
+    // stored locale exists
+    console.log(this.storedlocale, this.localeId);
+    if (this.storedlocale && this.storedlocale !== this.localeId) {
+      console.log('redirecting');
+
+      let langExist = false;
+      // for (let index = 0; index < this.languages.length; index++) {
+      // const element = this.languages[index];
+
+      // navigating from existing locale e.g. /am/ or /inibla/am/
+      if (this.baseHref.indexOf(`/${this.localeId}/`) !== -1) {
+        this.baseHref = this.baseHref.replace(this.localeId, this.storedlocale);
+        langExist = true;
+        // break;
+      }
+      // }
+
+      // navigating from root baseHref e.g / or /inibla/
+      if (!langExist) {
+        this.baseHref = `${this.baseHref}${this.storedlocale}/`
+      }
+
+      let port = this.location.port.length > 0 ? `:${this.location.port}` : '';
+      let url = `${this.location.protocol}//${this.location.hostname}${port}${this.baseHref}`;
+      console.log('ngInit', url, this.storedlocale, this.location);
+      window.location.href = url;
     }
-  }
 
-  topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-  }
-
-  toggleNavbar() {
-    // disable body scroll when navbar is in active
+    // disable body scroll which navbar is in active
     $(() => {
       $('.navbar-toggler').on('click', () => {
         $('body').toggleClass('noscroll');
@@ -76,6 +84,45 @@ export class HeaderComponent implements OnInit {
       });
     });
 
+  }
+
+  // When the user clicks on the button, scroll to the top of the document
+  topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
+  gotoLocale(lang: any): void {
+    // TODO: close any dialog window
+
+
+    // redirect if selected lang is different from current locale
+    if (lang.code !== this.localeId) {
+      this.topFunction();
+      this.cacheLocalePreference(lang.code);
+
+      let langExist = false;
+      // for (let index = 0; index < this.languages.length; index++) {
+      //  const element = this.languages[index];
+
+      // navigating from existing locale e.g. /am/ or /inibla/am/
+      if (this.baseHref.indexOf(`/${this.localeId}/`) !== -1) {
+        this.baseHref = this.baseHref.replace(this.localeId, lang.code);
+        langExist = true;
+        //  break;
+      }
+      // }
+
+      // navigating from root baseHref e.g / or /inibla/
+      if (!langExist) {
+        this.baseHref = `${this.baseHref}${lang.code}/`
+      }
+
+      let port = this.location.port.length > 0 ? `:${this.location.port}` : '';
+      let url = `${this.location.protocol}//${this.location.hostname}${port}${this.baseHref}`;
+      console.log('gotoLocale', url, this.storedlocale, this.location);
+      window.location.href = url;
+    }
   }
 
 }
