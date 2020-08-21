@@ -1,6 +1,6 @@
 import { Component, OnInit, Inject, LOCALE_ID } from '@angular/core';
-import * as $ from 'jquery';
 import { APP_BASE_HREF, PlatformLocation } from '@angular/common';
+import * as $ from 'jquery';
 import { timers } from 'jquery';
 
 @Component({
