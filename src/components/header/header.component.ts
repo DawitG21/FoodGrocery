@@ -36,10 +36,28 @@ export class HeaderComponent implements OnInit {
     console.log(this.storedlocale, this.localeId);
     if (this.storedlocale && this.storedlocale !== this.localeId) {
       console.log('redirecting');
+      
+      let langExist = false;
+      for (let index = 0; index < this.languages.length; index++) {
+        const element = this.languages[index];
+
+        // navigating from existing locale e.g. /am/ or /inibla/am/
+        if(this.baseHref.indexOf(`/${element.code}/`) !== -1) {
+          this.baseHref = this.baseHref.replace(element.code, this.storedlocale);
+          langExist = true;
+          break;
+        }
+      }
+
+      // navigating from root baseHref e.g / or /inibla/
+      if(!langExist) {
+        this.baseHref = `${this.baseHref}${this.storedlocale}/`
+      }
+      
       let port = this.location.port.length > 0 ? `:${this.location.port}` : '';
-      let url = `${this.location.protocol}//${this.location.hostname}${port}${this.baseHref}${this.storedlocale}${this.location.pathname}`;
-      console.log(url);
-      // window.location.href = url;
+      let url = `${this.location.protocol}//${this.location.hostname}${port}${this.baseHref}`;
+      console.log('ngInit', url, this.storedlocale, this.location);
+      window.location.href = url;
     }
 
     // disable body scroll which navbar is in active
@@ -82,8 +100,26 @@ export class HeaderComponent implements OnInit {
       this.topFunction();
       this.cacheLocalePreference(lang.code);
 
+      let langExist = false;
+      for (let index = 0; index < this.languages.length; index++) {
+        const element = this.languages[index];
+
+        // navigating from existing locale e.g. /am/ or /inibla/am/
+        if(this.baseHref.indexOf(`/${element.code}/`) !== -1) {
+          this.baseHref = this.baseHref.replace(element.code, lang.code);
+          langExist = true;
+          break;
+        }
+      }
+
+      // navigating from root baseHref e.g / or /inibla/
+      if(!langExist) {
+        this.baseHref = `${this.baseHref}${lang.code}/`
+      }
+
       let port = this.location.port.length > 0 ? `:${this.location.port}` : '';
-      let url = `${this.location.protocol}//${this.location.hostname}${port}${this.baseHref}${lang.code}${this.location.pathname}`;
+      let url = `${this.location.protocol}//${this.location.hostname}${port}${this.baseHref}`;
+      console.log('gotoLocale', url, this.storedlocale, this.location);
       window.location.href = url;
     }
   }
