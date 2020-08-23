@@ -1,6 +1,9 @@
 import { Component, OnInit, Inject, LOCALE_ID } from '@angular/core';
-import { APP_BASE_HREF, PlatformLocation } from '@angular/common';
-import * as $ from 'jquery';
+import { APP_BASE_HREF } from '@angular/common';
+import { LocaleService } from 'src/providers/locale.service';
+import { DebugService } from 'src/shared/debug.service';
+import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
+// import { ILanguage } from 'src/interface/ILanguage';
 
 @Component({
   selector: 'app-header',
@@ -10,80 +13,68 @@ import * as $ from 'jquery';
 
 export class HeaderComponent implements OnInit {
 
-  // TODO: specify an interface type for languages
+  // languages: ILanguage;
   languages = [
-    { code: 'am', label: 'Amharic' },
     { code: 'en-US', label: 'English' },
-    { code: 'fr', label: 'French' },
+    { code: 'am', label: 'Amharic' },
+    { code: 'fr', label: 'French' }
   ];
 
   storedlocale: string;
+  closeResult: string;
 
   constructor(
-    @Inject(LOCALE_ID) public localeId: string,
-    @Inject(APP_BASE_HREF) public baseHref: string,
-    public location: PlatformLocation
+    @Inject(LOCALE_ID) private _localeId: string,
+    @Inject(APP_BASE_HREF) private _baseHref: string,
+    private _localService: LocaleService,
+    private _consoleService: DebugService,
+    private modalService: NgbModal
   ) {
     this.storedlocale = localStorage.getItem('locale');
+    // this.languages = new ILanguage();
+  }
+
+  ngOnInit() {
+    this._localService.toggleNavbar();
+    this._consoleService.consoleLocale(this.storedlocale, this._localeId);
+    // stored locale exists    
+    if (this.storedlocale && this.storedlocale !== this._localeId) {
+      this._consoleService.consoleMessage('redirecting');
+      this._localService.redirect();
+    }
   }
 
   cacheLocalePreference(locale: string) {
     localStorage.setItem('locale', locale);
   }
 
-
-  ngOnInit() {
-    // stored locale exists
-    console.log(this.storedlocale, this.localeId);
-    if (this.storedlocale && this.storedlocale !== this.localeId) {
-      console.log('redirecting');
-
-      let langExist = false;
-      // for (let index = 0; index < this.languages.length; index++) {
-      // const element = this.languages[index];
-
-      // navigating from existing locale e.g. /am/ or /inibla/am/
-      if (this.baseHref.indexOf(`/${this.localeId}/`) !== -1) {
-        this.baseHref = this.baseHref.replace(this.localeId, this.storedlocale);
-        langExist = true;
-        // break;
-      }
-      // }
-
-      // navigating from root baseHref e.g / or /inibla/
-      if (!langExist) {
-        this.baseHref = `${this.baseHref}${this.storedlocale}/`
-      }
-
-      let port = this.location.port.length > 0 ? `:${this.location.port}` : '';
-      let url = `${this.location.protocol}//${this.location.hostname}${port}${this.baseHref}`;
-      console.log('ngInit', url, this.storedlocale, this.location);
-      window.location.href = url;
+  gotoLocale(lang: any): void {
+    // TODO: close any dialog window
+    this.dismissModalReason(lang);
+    // redirect if selected lang is different from current locale
+    if (lang.code !== this._localeId) {
+      this.topFunction();
+      this.cacheLocalePreference(lang.code);
+      this._localService.navigatetoLocale(lang);
     }
+  }
 
-    // disable body scroll which navbar is in active
-    $(() => {
-      $('.navbar-toggler').on('click', () => {
-        $('body').toggleClass('noscroll');
-      });
+  openModal(content: any) {
+    this.modalService.open(content, { ariaLabelledBy: 'modal-basic-title' }).result.then((result) => {
+      this.closeResult = `Closed with: ${result}`;
+    }, (reason) => {
+      this.closeResult = `Dismissed ${this.dismissModalReason(reason)}`;
     });
+  }
 
-    // Main navigation Active Class Add Remove
-    $('.navbar-toggler').on('click', () => {
-      $('header').toggleClass('active');
-    });
-
-    $(document).on('ready', () => {
-      if ($(window).width() > 991) {
-        $('header').removeClass('active');
-      }
-      $(window).on('resize', () => {
-        if ($(window).width() > 991) {
-          $('header').removeClass('active');
-        }
-      });
-    });
-
+  dismissModalReason(reason: any): string {
+    if (reason === ModalDismissReasons.ESC) {
+      return 'By pressing ESC';
+    } else if (reason === ModalDismissReasons.BACKDROP_CLICK) {
+      return 'By clicking on a backdrop';
+    } else {
+      return `with: ${reason}`;
+    }
   }
 
   // When the user clicks on the button, scroll to the top of the document
@@ -91,38 +82,4 @@ export class HeaderComponent implements OnInit {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
   }
-
-  gotoLocale(lang: any): void {
-    // TODO: close any dialog window
-
-
-    // redirect if selected lang is different from current locale
-    if (lang.code !== this.localeId) {
-      this.topFunction();
-      this.cacheLocalePreference(lang.code);
-
-      let langExist = false;
-      // for (let index = 0; index < this.languages.length; index++) {
-      //  const element = this.languages[index];
-
-      // navigating from existing locale e.g. /am/ or /inibla/am/
-      if (this.baseHref.indexOf(`/${this.localeId}/`) !== -1) {
-        this.baseHref = this.baseHref.replace(this.localeId, lang.code);
-        langExist = true;
-        //  break;
-      }
-      // }
-
-      // navigating from root baseHref e.g / or /inibla/
-      if (!langExist) {
-        this.baseHref = `${this.baseHref}${lang.code}/`
-      }
-
-      let port = this.location.port.length > 0 ? `:${this.location.port}` : '';
-      let url = `${this.location.protocol}//${this.location.hostname}${port}${this.baseHref}`;
-      console.log('gotoLocale', url, this.storedlocale, this.location);
-      window.location.href = url;
-    }
-  }
-
 }

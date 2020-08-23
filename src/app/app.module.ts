@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
-
 import { AppComponent } from './app.component';
 import { HeaderComponent } from '../components/header/header.component';
 import { IndexComponent } from '../components/index/index.component';
@@ -12,6 +11,7 @@ import { ContactComponent } from '../components/contact/contact.component';
 import { ServicetermsComponent } from '../components/serviceterms/serviceterms.component';
 import { FooterComponent } from '../components/footer/footer.component';
 import { APP_BASE_HREF, PlatformLocation } from '@angular/common';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -23,11 +23,12 @@ import { APP_BASE_HREF, PlatformLocation } from '@angular/common';
     FaqComponent,
     IndexComponent,
     JoinUsComponent,
-    ServicetermsComponent
+    ServicetermsComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   // providers: [{ provide: LOCALE_ID, useValue: 'am' }],
   providers: [

@@ -5,7 +5,7 @@
     <body>
       <trans-unit id="004b222ff9ef9dd4771b777950ca1d0e4cd4348a" datatype="html">
         <source>About</source>
-        <target>Bonjour</target>
+        <target>Histoire</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/header/header.component.html</context>
           <context context-type="linenumber">19</context>
@@ -13,7 +13,7 @@
       </trans-unit>
       <trans-unit id="b153bb5e43839ad39ae1b913cb95b0dc9af65191" datatype="html">
         <source>How It Works</source>
-        <target>እንዴት እንደሚሰራ</target>
+        <target>Fonctionne</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/header/header.component.html</context>
           <context context-type="linenumber">22</context>
@@ -21,7 +21,7 @@
       </trans-unit>
       <trans-unit id="4b6dbf2d92858e82bcf6ae5dbc8dfb4b29d82ad0" datatype="html">
         <source>FAQ</source>
-        <target>ተደጋግሞ የሚጠየቁ ጥያቄዎች</target>
+        <target>Question Fréquentes</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/header/header.component.html</context>
           <context context-type="linenumber">25</context>
@@ -29,7 +29,7 @@
       </trans-unit>
       <trans-unit id="62f8ffc20df1542e417e1f6009f06187fceac128" datatype="html">
         <source>Contact</source>
-        <target>አግኙን</target>
+        <target>Contact</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/header/header.component.html</context>
           <context context-type="linenumber">29</context>
@@ -37,7 +37,7 @@
       </trans-unit>
       <trans-unit id="729754dd19eb9ce0670b0aeb5a6ae60574c2c563" datatype="html">
         <source>Address</source>
-        <target>አድራሻ</target>
+        <target>Adresse</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/footer/footer.component.html</context>
           <context context-type="linenumber">8</context>
@@ -45,7 +45,7 @@
       </trans-unit>
       <trans-unit id="8c3dd724d03046d0f6c55335a3137554e35d1be8" datatype="html">
         <source>Office 601, 6th Floor, Ras Dashen Building, Addis Ababa, Ethiopia</source>
-        <target>ቢሮ ቁ 601 ፣ 6 ኛ ፎቅ ፣ የራስ ዳሸን ሕንፃ ፣ አዲስ አበባ ፣ ኢትዮጵያ</target>
+        <target>BBureau Étage 6, Ras Dashen Bâtiment, Addis Ababa, Ethiopie</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/footer/footer.component.html</context>
           <context context-type="linenumber">9</context>
@@ -53,7 +53,7 @@
       </trans-unit>
       <trans-unit id="a0843de0a64adcc7ee6a946408b6876cd8abdcae" datatype="html">
         <source>English</source>
-        <target>እንግሊዝኛ</target>
+        <target>Anglais</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/footer/footer.component.html</context>
           <context context-type="linenumber">13</context>
@@ -61,7 +61,7 @@
       </trans-unit>
       <trans-unit id="4cff9b06226490b8dce9a26a015eec916c99e07b" datatype="html">
         <source>Amharic</source>
-        <target>አማርኛ</target>
+        <target>Amharique</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/footer/footer.component.html</context>
           <context context-type="linenumber">14</context>
@@ -69,7 +69,7 @@
       </trans-unit>
       <trans-unit id="610f20d242b74c790da8ff70aa23ce523c93c1fe" datatype="html">
         <source>Get In Touch</source>
-        <target>ያግኙን</target>
+        <target>Entrer en contact</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/footer/footer.component.html</context>
           <context context-type="linenumber">18</context>
@@ -77,7 +77,7 @@
       </trans-unit>
       <trans-unit id="256826552274d059918760335f82fe02101baa4f" datatype="html">
         <source>Want to know more about us or have a question? Read our FAQ&apos;s or contact us!</source>
-        <target>ስለ እኛ የበለጠ ማወቅ ይፈልጋሉ ወይም ጥያቄ አለዎት? ተደጋግሞ የሚነሱ ጥያቄዎችን ይጎብኙ</target>
+        <target>Vous voulez en savoir plus sur nous ou vous avez une question? Lisez nos FAQ!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/footer/footer.component.html</context>
           <context context-type="linenumber">19</context>
@@ -93,7 +93,7 @@
       </trans-unit>
       <trans-unit id="e7f09eb3a812a7bd677b22a04954867d952d7a23" datatype="html">
         <source>Opening Hours</source>
-        <target>ክፍት የሚሆንበት ሰዓቶች</target>
+        <target>Horaires d'ouvertures</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/footer/footer.component.html</context>
           <context context-type="linenumber">25</context>
@@ -101,7 +101,7 @@
       </trans-unit>
       <trans-unit id="f6032501b96ecb76f74e8942d56805a318523fff" datatype="html">
         <source>Monday - Friday</source>
-        <target>ሰኞ - አርብ</target>
+        <target>Lundi - Vendredi</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/footer/footer.component.html</context>
           <context context-type="linenumber">26</context>
@@ -109,7 +109,7 @@
       </trans-unit>
       <trans-unit id="a3b129d8a20b984ea8b999707aa51b37bac9ad7b" datatype="html">
         <source>09:00 am to 10:00 pm</source>
-        <target>ከጠዋት 3 ሰዓት እስከ ከምሽቱ 4 ሰዓት</target>
+        <target>09h00 à 22h00</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/footer/footer.component.html</context>
           <context context-type="linenumber">27</context>
@@ -118,7 +118,7 @@
       <trans-unit id="3b586c9f2e811c6cc61a6ced8436c0b2564b8bb3" datatype="html">
         <source>After Office Hours<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 24/7 </source>
-        <target>ከስራ ሰዓቶች በኋላ          <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        <target>Après les heures de bureau <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 24/7 </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/footer/footer.component.html</context>
@@ -127,7 +127,7 @@
       </trans-unit>
       <trans-unit id="ef3828e60c35baa03c0f44904bed0e0b008a9d33" datatype="html">
         <source>Download App</source>
-        <target>መተግበሪያውን ያውርዱ</target>
+        <target>Téléchargez </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/footer/footer.component.html</context>
           <context context-type="linenumber">32</context>
@@ -135,7 +135,7 @@
       </trans-unit>
       <trans-unit id="af295e3b076b0d8c34dcc2bb54e470f8dd88894e" datatype="html">
         <source>© 2020 inibla. All rights reserved</source>
-        <target>© 2020 inibla. መብቱ በህግ የተጠበቀ ነው</target>
+        <target>© 2020 inibla. Tous les droits sont réservés</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/footer/footer.component.html</context>
           <context context-type="linenumber">44</context>
@@ -146,7 +146,7 @@
           <x id="START_SMALL_TEXT" ctype="x-small" equiv-text="&lt;small&gt;"/>
 Terms of Service<x id="CLOSE_SMALL_TEXT" ctype="x-small" equiv-text="&lt;/small&gt;"/>
         </source>
-        <target>የአገልግሎት ውሎች</target>
+        <target>Conditions d'utilisation</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/footer/footer.component.html</context>
           <context context-type="linenumber">45</context>
@@ -159,7 +159,7 @@ Home<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
         </source>
         <target>
           <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>
-ቤት          <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+Accueil <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
@@ -178,7 +178,7 @@ Home<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
         <target>
           <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
           <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
- ስለ እኛ</target>
+ Notre histoire</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
           <context context-type="linenumber">7</context>
@@ -186,7 +186,7 @@ Home<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
       </trans-unit>
       <trans-unit id="0e72634baa9723c676cd04b53f0a28282b8aed5c" datatype="html">
         <source>who we are</source>
-        <target>እኛ ማን ነን</target>
+        <target>Qui nous sommes</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
           <context context-type="linenumber">16</context>
@@ -194,7 +194,7 @@ Home<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
       </trans-unit>
       <trans-unit id="76f3dbd0b2d8f1d1003fcecfea9cf5b6f145e082" datatype="html">
         <source>About us</source>
-        <target>ስለ እኛ </target>
+        <target> Notre histoire</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
           <context context-type="linenumber">17</context>
@@ -202,7 +202,7 @@ Home<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
       </trans-unit>
       <trans-unit id="6400b6770bde87f06a325f8906317154dbfac2e3" datatype="html">
         <source>Best-in-Class B2B Crowdsourced Last-Mile Delivery for emerging markets</source>
-        <target>ለገበያዎች እጅግ በጣም ጥሩ ደረጃ-ላይ ባለ B2B የተጎለበተ የገበያ ማቅረቢያ</target>
+        <target>Meilleure livraison B2B Crowdsourced Last Mile pour les marchés émergents</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
           <context context-type="linenumber">24</context>
@@ -210,13 +210,8 @@ Home<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
       </trans-unit>
       <trans-unit id="923ed37c7c63ef9af90cbd239c91f1c4567ccf14" datatype="html">
         <source>Inibla is an on-demand courier service that purchases, picks up, and delivers products
-              ordered
-              through its mobile app. It aspires to be a multi-category lifestyle app with food delivery being the most
-              popular offering</source>
-        <target>እንብላ ምርቶችን የሚገዛ ፣ የሚይዝ እና የሚያቀርብ በትዕዛዝ የሚሸጥ አገልግሎት ሰጪ ማድረሽያ ነው ።
-              በሞባይል መተግበሪያ በኩል ከሚቀርበው የምግብ አቅርቦት ባለብዙ ምድብ ምርጫ ጋር መተግበሪያ ታዋቂ መስሪያ ሆኖ  
-              ነው የአኗኗር ዘይቤ መተግበሪያ ለመሆን ይፈልጋል ለተሻለ አቅርቦት
-        </target>
+              ordered through its mobile app. It aspires to be a multi-category lifestyle app with food delivery being the most popular offering</source>
+        <target>Inibla est un service de messagerie à la demande qui achète, récupère et livre des produits commandé via son application mobile. Il aspire à être une application de style de vie multi-catégories, la livraison de nourriture étant la plus offre populaire</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
           <context context-type="linenumber">25</context>
@@ -224,7 +219,7 @@ Home<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
       </trans-unit>
       <trans-unit id="d171799ce4cd06c7da0517ed2931cbee9117003b" datatype="html">
         <source>Hassle-Free Cash Collection Process</source>
-        <target>ውጣ ውረድ የሌለው በገንዘብ መገበያያ ሂደት</target>
+        <target>Processus de collecte d'espèces sans tracas</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
           <context context-type="linenumber">43</context>
@@ -237,9 +232,9 @@ Home<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
             paying
             back the cash we collected for you in weekly payment cycles through a list of supported banks with no
             additional transferring fees.</source>
-        <target>በአዲስ አበባ ክልል ከሚላኩ አቅርቦቶች ውስጥ ከ 80 በመቶ በላይ የሚሆኑት አቅርቦትን በተመለከተ የገንዘብ አቅርቦት ስለሚያስፈልገን ለእያንዳንዱ ንግድ 
-        እና አሽከርካሪ ዲጂታል የኪስ ቦርሳ ገንብተናል::በአዲስ አበባ ክልል ከሚላኩ አቅርቦቶች ውስጥ ከ 80 በመቶ በላይ የሚሆኑት አቅርቦትን በተመለከተ የገንዘብ አቅርቦት ስለሚያስፈልገን 
-        ለእያንዳንዱ ንግድ እና አሽከርካሪ ዲጂታል የኪስ ቦርሳ ገንብተናል</target>
+        <target>Parce que + 80% des livraisons dans la région d'Addis-Abeba nécessitent un paiement à la livraison, nous avons construit un portefeuille numérique
+            pour chaque entreprise et chauffeur traitant avec nous. Le résultat est un processus de paiement très organisé qui comprend payant rembourser l'argent que nous avons collecté pour vous dans des cycles de paiement hebdomadaires via une liste de banques prises en charge sans
+            frais de transfert supplémentaires.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
           <context context-type="linenumber">44</context>
@@ -248,7 +243,7 @@ Home<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
       <trans-unit id="be0df30f98d0322d0fe100f2bef8870de5a59da2" datatype="html">
         <source>Order<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 Tracking</source>
-        <target>ትዕዛዝ</target>
+        <target>Suivi</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
           <context context-type="linenumber">57</context>
@@ -257,7 +252,7 @@ Tracking</source>
       <trans-unit id="5777c721902bb14544d43775fb3211d2497d793b" datatype="html">
         <source>Cash On<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 Delivery</source>
-        <target>ጥሬ ገንዘብ</target>
+        <target>Paiement à la livraison</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
           <context context-type="linenumber">65</context>
@@ -266,7 +261,7 @@ Delivery</source>
       <trans-unit id="0ea4c339c2fc1a7b812f49d9ae87b473b3c8af00" datatype="html">
         <source>Customers<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 Support</source>
-        <target>ደንበኞች</target>
+        <target>Assistance clients</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
           <context context-type="linenumber">73</context>
@@ -275,7 +270,7 @@ Support</source>
       <trans-unit id="44740747b5ccbf9c10e804838e6441bfb94084d0" datatype="html">
         <source>Verified<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 Drivers</source>
-        <target>ማረጋገጫ</target>
+        <target>Conducteurs vérifiés</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
           <context context-type="linenumber">81</context>
@@ -284,7 +279,7 @@ Drivers</source>
       <trans-unit id="f1e72286696483377b6de6303589c463d6e84b78" datatype="html">
         <source>Easy<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 Intergration</source>
-        <target>ቀላል ውህደት</target>
+        <target>Intégration facile</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
           <context context-type="linenumber">89</context>
@@ -293,7 +288,7 @@ Intergration</source>
       <trans-unit id="510eb283902860bd8b8fb15c163e9f5d5df9cca8" datatype="html">
         <source>Transparent<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 Pricing</source>
-        <target>ግልጽነት</target>
+        <target>Tarification transparente</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
           <context context-type="linenumber">97</context>
@@ -302,7 +297,7 @@ Pricing</source>
       <trans-unit id="edc7e18d479b2c6f44c2d74967f13b9a78fceb7e" datatype="html">
         <source>Insurance<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 Policy</source>
-        <target>ኢንሹራንስ ፖሊሲ</target>
+        <target>Police d'assurance</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
           <context context-type="linenumber">105</context>
@@ -311,7 +306,7 @@ Policy</source>
       <trans-unit id="bad4dfccad8915da7b4732f658f379a3093d777c" datatype="html">
         <source>Flexible Return<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 Policy</source>
-        <target>የመመለስ ፖሊሲ</target>
+        <target>Politique de retour</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
           <context context-type="linenumber">113</context>
@@ -319,7 +314,7 @@ Policy</source>
       </trans-unit>
       <trans-unit id="3769680bcd8c8a34ad02a7ce1f246a4fbae11407" datatype="html">
         <source>Our facts</source>
-        <target>የእኛ እውነታዎች</target>
+        <target>Nos faits</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
           <context context-type="linenumber">127</context>
@@ -327,7 +322,7 @@ Policy</source>
       </trans-unit>
       <trans-unit id="624d918ba6162ecced1b21f6f3b2a9b5eff8cea9" datatype="html">
         <source>Why we are unique? Have a look.</source>
-        <target>ምን ልዩ ያደርገናል ? ይመልከቱ</target>
+        <target>Pourquoi sommes-nous uniques? Regarde.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
           <context context-type="linenumber">128</context>
@@ -343,7 +338,7 @@ Policy</source>
       </trans-unit>
       <trans-unit id="93a1e2086faca0bb133a721377bd461ae4ce7fe4" datatype="html">
         <source>registered customers</source>
-        <target>የተመዘገቡ ደንበኞች</target>
+        <target>Clients enregistrés</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
           <context context-type="linenumber">138</context>
@@ -359,7 +354,7 @@ Policy</source>
       </trans-unit>
       <trans-unit id="943364705e03f3a8baf6482d41cfea26d14a8ef9" datatype="html">
         <source>page views/month</source>
-        <target>ገጽ ዕይታዎች / ወር</target>
+        <target>pages vues / mois</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
           <context context-type="linenumber">147</context>
@@ -375,7 +370,7 @@ Policy</source>
       </trans-unit>
       <trans-unit id="842041d705d058465c4d5460049246a6c6df4780" datatype="html">
         <source>value of goods sold/month (ETB)</source>
-        <target>የሚሸጡ ዕቃዎች ዋጋ በወር (ETB)</target>
+        <target>Valeur des marchandises vendues / mois (ETB)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
           <context context-type="linenumber">156</context>
@@ -383,7 +378,7 @@ Policy</source>
       </trans-unit>
       <trans-unit id="a9cd05957f4d642d4f3f92d39c9a6d8b50d7d8b0" datatype="html">
         <source>Food Delivery and More. You Order, We Get it!</source>
-        <target>የምግብ አቅርቦት እና ሌሎችም ፡፡ እርስዎ ትዕዛዝ ይሰጣሉ ፣ እኛ እናደርሳለን!</target>
+        <target>Livraison de nourriture et plus encore. Vous commandez, nous l'obtenons!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/contact/contact.component.html</context>
           <context context-type="linenumber">12</context>
@@ -391,7 +386,7 @@ Policy</source>
       </trans-unit>
       <trans-unit id="02e9e69ddcbf93de9fd38bc4d0f312142658610d" datatype="html">
         <source>Contact Us</source>
-        <target>አግኙን</target>
+        <target>Nous Contacter</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/contact/contact.component.html</context>
           <context context-type="linenumber">18</context>
@@ -399,7 +394,7 @@ Policy</source>
       </trans-unit>
       <trans-unit id="59d2b20b0fc0271de37e5669cf4274615a18fcb3" datatype="html">
         <source>Office 506 Dashen Bldg, Addis Ababa</source>
-        <target>ቢሮ 506 የራስ ዳሸን ሕንፃ ፣ አዲስ አበባ</target>
+        <target>Bureau 506 Dashen Bldg, Addis-Abeba</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/contact/contact.component.html</context>
           <context context-type="linenumber">21</context>
@@ -415,7 +410,7 @@ Policy</source>
       </trans-unit>
       <trans-unit id="a95ed33f6d687ad1a7c884c19a20c827a1c325da" datatype="html">
         <source>Mon - Fri : 09:00 am to 10:00 pm</source>
-        <target>ሰኞ - አርብ ከጠዋቱ 3 ሰዓት እስከ ምሽቱ 4 ሰዓት</target>
+        <target>Lundi - Vendredi: 9 h 00 à 22 h 00</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/contact/contact.component.html</context>
           <context context-type="linenumber">30</context>
@@ -423,7 +418,7 @@ Policy</source>
       </trans-unit>
       <trans-unit id="007ba9d2b82f7663d7519a74d0d4435223330e1e" datatype="html">
         <source>After Office Hours: 24/7</source>
-        <target>ከቢሮ ሰዓቶች በኋላ: 24/7</target>
+        <target>Après les heures de bureau: 24/7</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/contact/contact.component.html</context>
           <context context-type="linenumber">35</context>
@@ -431,7 +426,7 @@ Policy</source>
       </trans-unit>
       <trans-unit id="e5550b4db07bf4bed5d32090ab86adf9583cc7c7" datatype="html">
         <source>Follow Us</source>
-        <target>ተከተሉን</target>
+        <target>Suivez nous</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/contact/contact.component.html</context>
           <context context-type="linenumber">42</context>
@@ -453,7 +448,7 @@ FAQ</target>
       </trans-unit>
       <trans-unit id="571da6115b226bb7e624b797fe79283b6b05091b" datatype="html">
         <source>frequently asked questions</source>
-        <target>ተደጋግሞ የሚነሱ ጥያቄዎች</target>
+        <target>Questions fréquemment posées</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/faq/faq.component.html</context>
           <context context-type="linenumber">15</context>
@@ -461,7 +456,7 @@ FAQ</target>
       </trans-unit>
       <trans-unit id="5cc5340e1e122773553003c45a63826f38c77aea" datatype="html">
         <source>Want to find out more about inibla? Have a look.</source>
-        <target>ስለ እንብላ የበለጠ ማወቅ ይፈልጋሉ? ይመልከቱ</target>
+        <target>Vous souhaitez en savoir plus sur inibla? Regarde.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/faq/faq.component.html</context>
           <context context-type="linenumber">16</context>
@@ -472,7 +467,7 @@ FAQ</target>
           <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
           <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
  General Questions</source>
-        <target>አጠቃላይ ጥያቄዎች</target>
+        <target>Questions générales</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/faq/faq.component.html</context>
           <context context-type="linenumber">25</context>
@@ -480,7 +475,7 @@ FAQ</target>
       </trans-unit>
       <trans-unit id="408fca65130a4f4d423b9145417d638358131cea" datatype="html">
         <source>How does it work ?</source>
-        <target>እንዴት ነው የሚሰራው ?</target>
+        <target>Comment ça marche ?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/faq/faq.component.html</context>
           <context context-type="linenumber">29</context>
@@ -491,8 +486,7 @@ FAQ</target>
               We deliver to our customers from anywhere our customers would like. We take your order online and
               place it with the vendor from which you ordered from.
         </source>
-        <target>ደንበኞቻችን ከሚፈልጓቸው ሥፍራ እናስተላልፋለን ትዕዛዝዎን በመስመር ላይ እንወስዳለን 
-              ካዘዙበት ሻጭ ጋር ከሚፈልጓቸው እናስተላልፋለን</target>
+        <target>Nous livrons à nos clients de partout où nos clients le souhaitent. Nous prenons votre commande en ligne et la passons chez le fournisseur auprès duquel vous avez commandé.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/faq/faq.component.html</context>
           <context context-type="linenumber">30</context>
@@ -500,7 +494,7 @@ FAQ</target>
       </trans-unit>
       <trans-unit id="6d7fe78161141c80c4f93710861eba6ef7a95f54" datatype="html">
         <source>Can I order from more than one vendor at a time ?</source>
-        <target>በአንድ ጊዜ ከአንድ በላይ ሻጭ ማዘዝ እችላለሁ?</target>
+        <target>Puis-je commander auprès de plusieurs fournisseurs à la fois?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/faq/faq.component.html</context>
           <context context-type="linenumber">37</context>
@@ -512,9 +506,8 @@ FAQ</target>
               ordering from one restaurant per order and the quoted delivery fees per order will apply due to the
               increased time and number of stops.
         </source>
-        <target>ከአንድ በላይ ምግብ ቤት ማዘዝ ከፈለጉ ብዙ ትዕዛዞችን ማስቀመጥ ይችላሉ። እኛ ብቻ እንደግፋለን
-              በአንድ ትዕዛዝ ከአንድ ምግብ ቤት ማዘዣ እና በተጠቀሰው ትዕዛዙ ላይ የቀረቡት የመላኪያ ክፍያዎች ትእዛዝ ስር ይተገበራሉ
-              ማቆሚያዎች ጊዜ እና ቁጥር ይጨምረዋል</target>
+        <target>Si vous souhaitez passer une commande auprès de plusieurs restaurants, vous pouvez passer plusieurs commandes. Nous soutenons uniquement
+la commande auprès d'un restaurant par commande et les frais de livraison indiqués par commande s'appliqueront en raison de l'augmentation du temps et du nombre d'arrêts.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/faq/faq.component.html</context>
           <context context-type="linenumber">38</context>
@@ -522,7 +515,7 @@ FAQ</target>
       </trans-unit>
       <trans-unit id="ee78978b744770911ada368fc66b0ad2764220e3" datatype="html">
         <source>Do you charge for delivery ?</source>
-        <target>ለማድረስ ክፍያ ይጠይቃሉ ?</target>
+        <target>Facturez-vous la livraison?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/faq/faq.component.html</context>
           <context context-type="linenumber">46</context>
@@ -530,7 +523,7 @@ FAQ</target>
       </trans-unit>
       <trans-unit id="bb7342a034e3cff1548729ab74b07fd4b4e12e19" datatype="html">
         <source>Yes! Our delivery fee varies depending on your distance from the vendor location.</source>
-        <target>አዎ! የአቅርቦት ክፍያው ከአቅራቢያዎ ባለው ርቀት ላይ በመመስረት ይለያያል.</target>
+        <target>Oui! Nos frais de livraison varient en fonction de votre distance par rapport à l'emplacement du fournisseur.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/faq/faq.component.html</context>
           <context context-type="linenumber">48</context>
@@ -541,7 +534,7 @@ FAQ</target>
           <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
           <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
  Vendor Questions</source>
-        <target>የአቅራቢ ጥያቄዎች</target>
+        <target>Questions des fournisseurs</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/faq/faq.component.html</context>
           <context context-type="linenumber">58</context>
@@ -549,7 +542,7 @@ FAQ</target>
       </trans-unit>
       <trans-unit id="dba3132af4ac402b678e955139c01c559cbc61ff" datatype="html">
         <source>What happens if I have changed my item prices ?</source>
-        <target>የንጥል ዋጋዎቼን ከቀየርኩ ምን ይከሰታል ?</target>
+        <target>Que se passe-t-il si j'ai modifié les prix de mes articles?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/faq/faq.component.html</context>
           <context context-type="linenumber">62</context>
@@ -559,7 +552,7 @@ FAQ</target>
         <source>
               If there has been a menu change, we will contact you to make sure the price difference is ok.
         </source>
-        <target>የዋጋ ለውጥ ካለ ፣ የዋጋ ልዩነት መኖሩን እናረጋግጥዎታለን</target>
+        <target>En cas de changement de menu, nous vous contacterons pour nous assurer que la différence de prix est correcte.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/faq/faq.component.html</context>
           <context context-type="linenumber">63</context>
@@ -567,7 +560,7 @@ FAQ</target>
       </trans-unit>
       <trans-unit id="5a67a8dd4eca3489a981feb3a6fa695444211f84" datatype="html">
         <source>How do I follow up my order records ?</source>
-        <target>የትእዛዝ መዝገቦቼን እንዴት እከታተላለሁ?</target>
+        <target>Comment suivre mes enregistrements de commandes?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/faq/faq.component.html</context>
           <context context-type="linenumber">69</context>
@@ -579,8 +572,7 @@ FAQ</target>
               your order records, But also allows you to manage your business as a whole.
         </source>
         <target>
-              ከደንበኛ መተግበሪያ ሌላ የአቅራቢ ለመከታተል የሚያስችል መተግበሪያ አለን የእርሶ
-              ትእዛዝ መዝገብዎን የንግድዎን በአጠቃላይ እንዲያስተዳድሩም ያስችልዎታል</target>
+            En dehors de l'application client, nous avons les fournisseurs & apos; application qui vous permet non seulement de suivre vos enregistrements de commandes, mais vous permet également de gérer votre entreprise dans son ensemble.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/faq/faq.component.html</context>
           <context context-type="linenumber">70</context>
@@ -589,8 +581,7 @@ FAQ</target>
       <trans-unit id="2dd0b40cee1c06e4cf6d91c3cd26d13f5a726aa6" datatype="html">
         <source>How do you take into account, the packaging of my various items to ensure
               they reach the customer in good state ?</source>
-        <target>የተለያዩ እቃዎችን ማሸጊያ እንዴት ግምት ውስጥ ማስገባት አለብዎት ?
-              ለደንበኛው በጥሩ ሁኔታ ላይ እንዲደርሱ ?</target>
+        <target>Comment prendre en compte l'emballage de mes différents articles pour s'assurer qu'ils parviennent au client en bon état?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/faq/faq.component.html</context>
           <context context-type="linenumber">77</context>
@@ -600,7 +591,7 @@ FAQ</target>
         <source>
               We have differnt package boxes for both hot or warm orders as well as for cool or cold orders.
         </source>
-        <target>ለሁለቱም ለሞቃት ወይም ለቅዝቃዛም ትዕዛዞች የተለያዩ የጥቅል ሳጥኖች አሉን</target>
+        <target>Nous avons d'excellentes boîtes d'emballage</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/faq/faq.component.html</context>
           <context context-type="linenumber">79</context>
@@ -611,7 +602,7 @@ FAQ</target>
           <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
           <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
  Driver Questions</source>
-        <target>የአሽከርካሪ ጥያቄዎች</target>
+        <target>Questions du conducteur</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/faq/faq.component.html</context>
           <context context-type="linenumber">89</context>
@@ -619,7 +610,7 @@ FAQ</target>
       </trans-unit>
       <trans-unit id="96a890fd5388d31df88896dbe53571e49b23fea6" datatype="html">
         <source>Who do I call if there is a mistake with my Order ?</source>
-        <target>በትእዛዙ ላይ ስህተት ካለ ማነው መደወል የምችለው ?</target>
+        <target>Qui dois-je appeler s'il y a une erreur avec ma commande?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/faq/faq.component.html</context>
           <context context-type="linenumber">93</context>
@@ -634,9 +625,8 @@ FAQ</target>
               will get incorrect items replaced; missing items delivered or arrange for credit towards your next order.
               To use your credit please call the office to place your order.
       </source>
-      <target>እባክዎን ይደውሉ +251904149609 ከደረሰ በኋላ በሰላሳ ደቂቃዎች ውስጥ ምንም የጎደለ ነገር ካለ ወይም
-              የተሳሳተ ካለ እኛ የተሳሳቱ ዕቃዎች ይተካሉ ፣ የሚጎድሉ ነገሮች ወደ ሚቀጥለው ትእዛዝዎ እንዲደርሷቸው ወይም ለዱቤ ያመቻቹ።
-              ብድርዎን ለመጠቀም እባክዎን ትዕዛዝዎን ለማስያዝ ለቢሮው ይደውሉ</target>
+      <target>S'il vous plaît appelez +251904149609 dans les trente minutes suivant la livraison S'il y a quelque chose manquant ou incorrect. nous
+obtiendra les éléments incorrects remplacés; articles manquants livrés ou organiser un crédit pour votre prochaine commande.Pour utiliser votre crédit, veuillez appeler le bureau pour passer votre commande.</target>
       <context-group purpose="location">
         <context context-type="sourcefile">src/components/faq/faq.component.html</context>
         <context context-type="linenumber">94</context>
@@ -644,7 +634,7 @@ FAQ</target>
     </trans-unit>
     <trans-unit id="c287bee91e9f26240ee4dee34be3eb99de6168a4" datatype="html">
       <source>How do I join as a delivery driver ?</source>
-      <target>እንደ አቅራቢ ሾፌር እንዴት እቀላቀል ?</target>
+      <target>Comment adhérer en tant que livreur?</target>
       <context-group purpose="location">
         <context context-type="sourcefile">src/components/faq/faq.component.html</context>
         <context context-type="linenumber">103</context>
@@ -659,8 +649,8 @@ FAQ</target>
               touch with you for more details.
     </source>
     <target>
-በድረ ገጻችን ላይ የቀረበውን ቅጽ መሙላት ወይም በ ውስጥ በተጠቀሰው ጽ / ቤታችን ውስጥ ሊጎበኙን ይችላሉ ለተጨማሪ ዝርዝሮች
-              አግኙን ገጻችን ላይ ወይም በዚህ ቁጥር በኩል ጥሪ ሊሰጡን ይችላሉ +251904149609 
+Vous pouvez remplir le formulaire fourni sur notre site Web ou nous rendre visite dans nos bureaux indiqués dans le
+Contactez-nous ou vous pouvez nous appeler via ce numéro +251904149609 et nous vous contacterons pour plus de détails. 
     </target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/faq/faq.component.html</context>
@@ -669,7 +659,7 @@ FAQ</target>
   </trans-unit>
   <trans-unit id="585094f46817c715f767f92bb9edb4d93282b4c8" datatype="html">
     <source>Is there a limit in the number of delivery trips I can make in a day ?</source>
-    <target>በአንድ ቀን ውስጥ ማድረግ የምችለው የማጓጓዣ ጉዞ ብዛት ላይ ገደብ አለ ?</target>
+    <target>Y a-t-il une limite au nombre de trajets de livraison que je peux effectuer en une journée?</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/faq/faq.component.html</context>
       <context context-type="linenumber">112</context>
@@ -679,7 +669,7 @@ FAQ</target>
     <source>
               No! You can make as much trips as the orders are available from our differnt vendors.
     </source>
-    <target>አይ! ትዕዛዞችን ከተለያዩ ሻጮችዎ የሚያገኙትን ያህል ጉዞዎችን ማድረግ ይችላሉ</target>
+    <target>Non! Vous pouvez effectuer autant de voyages que les commandes sont disponibles auprès de nos différents fournisseurs.</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/faq/faq.component.html</context>
       <context context-type="linenumber">114</context>
@@ -687,7 +677,7 @@ FAQ</target>
   </trans-unit>
   <trans-unit id="e43e4ff224eb0af8d624e92c96a5301e4c5a7a37" datatype="html">
     <source>You order, we get it!</source>
-    <target>እርስዎ ይዘዙ እኛ እናደርሳለን !</target>
+    <target>Commandez, nous livrons!</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/index/index.component.html</context>
       <context context-type="linenumber">11</context>
@@ -695,7 +685,7 @@ FAQ</target>
   </trans-unit>
   <trans-unit id="13a7adfd43130a83945f0e04dc77269ecb8b46ad" datatype="html">
     <source>Follow your orders with the Inibla App</source>
-    <target>ትዕዛዞችን በ Inibla ማመልከቻ በመጠቀም ይከተሉ</target>
+    <target>Suivez vos commandes avec l'application Inibla</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/index/index.component.html</context>
       <context context-type="linenumber">12</context>
@@ -703,7 +693,7 @@ FAQ</target>
   </trans-unit>
   <trans-unit id="05cb4632942396def357ce373c65d7ace96c2ccf" datatype="html">
     <source>Watch the progress of your deliveries in real-time and order from anywhere</source>
-    <target>ከየትኛውም ቦታ እና ጊዜ ላይ በቅደም ተከተል ትዛዞን ሂደት ይመልከቱ</target>
+    <target>Suivez l'avancement de vos livraisons en temps réel et commandez de n'importe où</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/index/index.component.html</context>
       <context context-type="linenumber">14</context>
@@ -711,7 +701,7 @@ FAQ</target>
   </trans-unit>
   <trans-unit id="9b210b80286b048b78507e9c35a8108947afb9b9" datatype="html">
     <source>Anything in Addis Ababa city Delivered in minutes</source>
-    <target>በአዲስ አበባ ከተማ ውስጥ በደቂቃዎች እናደርሳለን</target>
+    <target>Livraison rapide à Addis-Abeba</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/index/index.component.html</context>
       <context context-type="linenumber">32</context>
@@ -720,7 +710,7 @@ FAQ</target>
   <trans-unit id="3f5f542f36aecfbbcde27cd02985e90635b85029" datatype="html">
     <source>Discover the stores in demand and have us deliver what you want on demand.
     </source>
-    <target>በፍላጎት ውስጥ ያሉትን መደብሮች ያግኙ እና የሚፈልጉትን እንዲያቀርቡ ያድርጉ</target>
+    <target>Découvrez les magasins en demande et faites-nous livrer ce que vous voulez à la demande.</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/index/index.component.html</context>
       <context context-type="linenumber">33</context>
@@ -730,7 +720,7 @@ FAQ</target>
     <source> Hypercharge your business by becoming a partner and leveraging the
           tools,
           the tech, and the customer base that brings an entire city to your door.</source>
-    <target>ባልደረባ በመሆን እና ሙሉ ከተማን ወደ ቤትዎ የሚያመጣቸውን ቴክኖሎጅ እና የደንበኛ መሠረት / ገንዘብ በመሰብሰብ ንግድዎን በከፍተኛ ደረጃ ይግዙ</target>
+    <target>Boostez votre entreprise en devenant partenaire et en tirant parti des outils, de la technologie et de la clientèle qui amènent toute une ville à votre porte.</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/index/index.component.html</context>
       <context context-type="linenumber">35</context>
@@ -738,7 +728,7 @@ FAQ</target>
   </trans-unit>
   <trans-unit id="dd5af2f6a794a6246d7d0d76e159fc3717e4c50f" datatype="html">
     <source>Partner with us</source>
-    <target>ከኛ ጋር ይስሩ</target>
+    <target>Partenaire avec nous</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/index/index.component.html</context>
       <context context-type="linenumber">38</context>
@@ -749,7 +739,7 @@ FAQ</target>
       <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>
 Right food cooked with natural ingredient<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
     </source>
-    <target>ከተፈጥሯዊ ንጥረ ነገር ጋር የተቀቀለ ትክክለኛ ምግብ</target>
+    <target>Bonne nourriture cuisinée avec des ingrédients naturels</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/index/index.component.html</context>
       <context context-type="linenumber">45</context>
@@ -760,7 +750,7 @@ Right food cooked with natural ingredient<x id="CLOSE_LINK" ctype="x-a" equiv-te
       <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>
 The use of natural best quality products<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
     </source>
-    <target>ተፈጥሯዊ ጥራት ያላቸው ምርቶች አጠቃቀም</target>
+    <target>L'utilisation de produits naturels de la meilleure qualité</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/index/index.component.html</context>
       <context context-type="linenumber">49</context>
@@ -772,7 +762,7 @@ The use of natural best quality products<x id="CLOSE_LINK" ctype="x-a" equiv-tex
  Whether hot or cold food or drinks, we have the best package boxes
                 for you!<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
     </source>
-    <target>ሞቃትም ይሁን ቀዝቃዛ ምግብም ሆነ መጠጦች ለእርስዎ ምርጥ የጥቅል ሳጥኖች አለን!</target>
+    <target>Qu'il s'agisse de plats chauds ou froids ou de boissons, nous avons les meilleures boîtes d'emballage pour vous!</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/index/index.component.html</context>
       <context context-type="linenumber">53</context>
@@ -783,7 +773,7 @@ The use of natural best quality products<x id="CLOSE_LINK" ctype="x-a" equiv-tex
       <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>
 Fastest delivery on your door step<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
     </source>
-    <target>በፍጥነት በርዎ ላይ እናደርሳለን</target>
+    <target>Livraison la plus rapide à votre porte</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/index/index.component.html</context>
       <context context-type="linenumber">58</context>
@@ -791,7 +781,7 @@ Fastest delivery on your door step<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt
   </trans-unit>
   <trans-unit id="adc68e5202e45dc1e99d07ffc7284c7978eac107" datatype="html">
     <source>Choose a vendor, place the order, set your location</source>
-    <target>አቅራቢ ይምረጡ ትዕዛዞን ይምረጡ አቅራቢያ ስፍራዎን ይምረጡ</target>
+    <target>Sélectionnez le fournisseur, commandez votre emplacement</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/index/index.component.html</context>
       <context context-type="linenumber">70</context>
@@ -800,7 +790,7 @@ Fastest delivery on your door step<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt
   <trans-unit id="a47f9b0ab1e7e93d67bd9c74679b3f952b8d4579" datatype="html">
     <source>Deliveries are priced depending on your distance from the vendor. Once logged
           in, you&apos;ll be able to see which vendor you can order from.</source>
-    <target>ከሻጩ አቅራቢያዎ ባለው ርቀት ላይ በመመርኮዝ ዋጋ ይለያያል ። አንዴ ከገቡ በኋላ የትኛውን ሻጭ ማዘዝ እንደሚችሉ ማየት ይችላሉ</target>
+    <target>Les livraisons sont tarifées en fonction de votre distance par rapport au fournisseur. Une fois connecté, vous pourrez voir quel fournisseur vous pouvez commander.</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/index/index.component.html</context>
       <context context-type="linenumber">71</context>
@@ -808,7 +798,7 @@ Fastest delivery on your door step<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt
   </trans-unit>
   <trans-unit id="33e8c7f646f67916ad6427f552d729aac98f824f" datatype="html">
     <source>Get Started</source>
-    <target>መጀመር</target>
+    <target>Commencer</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/index/index.component.html</context>
       <context context-type="linenumber">73</context>
@@ -816,7 +806,7 @@ Fastest delivery on your door step<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt
   </trans-unit>
   <trans-unit id="2d0bfdedffb93a3d5784f5b17beb21a8f9d25587" datatype="html">
     <source>Earn points every time you complete an order</source>
-    <target>ትዕዛዝ በጨረሱ ቁጥር ነጥቦችን ያግኙ</target>
+    <target>Gagnez des points à chaque fois que vous passez une commande</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/index/index.component.html</context>
       <context context-type="linenumber">77</context>
@@ -826,7 +816,7 @@ Fastest delivery on your door step<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt
     <source> Everytime you make a complete order,
           you will be awarded 10 points,that you can redeem as your delivery fee once you reach a cumulative of 100
           points.</source>
-    <target>የተሟላ ትዕዛዝ ባደረጉ ቁጥር 10 ነጥቦችን ያገኛሉ   100 ነጥብ ያህል ድምር ላይ ከደረሱ ክፍያዎ ያስመልሱ</target>
+    <target>Gagnez des points à chaque fois que vous passez une commande</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/index/index.component.html</context>
       <context context-type="linenumber">78</context>
@@ -834,7 +824,7 @@ Fastest delivery on your door step<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt
   </trans-unit>
   <trans-unit id="e569e8261f743eb3bb8982c4e7a6aadba191ce94" datatype="html">
     <source>Learn More</source>
-    <target>ተጨማሪ መረጃ</target>
+    <target>Apprendre encore plus</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/index/index.component.html</context>
       <context context-type="linenumber">81</context>
@@ -842,7 +832,7 @@ Fastest delivery on your door step<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt
   </trans-unit>
   <trans-unit id="cada6af7015ebcd1ab99e0edcea6fb4b5dc92fb4" datatype="html">
     <source>Clients Gallery</source>
-    <target>የደንበኞች ማሳያ</target>
+    <target>Galerie des clients</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/index/index.component.html</context>
       <context context-type="linenumber">95</context>
@@ -850,7 +840,7 @@ Fastest delivery on your door step<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt
   </trans-unit>
   <trans-unit id="fe66da0cc3f8b71ef454b415f47a3ae0e5959ce0" datatype="html">
     <source>Some of Our Vendors</source>
-    <target>ሻጮቻችን</target>
+    <target>Certains de nos fournisseurs</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/index/index.component.html</context>
       <context context-type="linenumber">96</context>
@@ -858,7 +848,7 @@ Fastest delivery on your door step<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt
   </trans-unit>
   <trans-unit id="98d2891f2aecb471b9221777ca2d3bd13fe36bc9" datatype="html">
     <source>join as vendor</source>
-    <target>እንደ ሻጭ ይቀላቀሉ</target>
+    <target>rejoindre en tant que fournisseur</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/join-us/join-us.component.html</context>
       <context context-type="linenumber">6</context>
@@ -872,7 +862,7 @@ how it works</source>
     <target>
       <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
       <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
-እንዴት እንደሚሰራ</target>
+Comment ça fonctionne</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/join-us/join-us.component.html</context>
       <context context-type="linenumber">7</context>
@@ -884,7 +874,7 @@ how it works</source>
   </trans-unit>
   <trans-unit id="82f58b1622c470ed5ae15f0c5b4f32173e13639f" datatype="html">
     <source>Let&apos;s get you started</source>
-    <target>እንጀምር</target>
+    <target>Commençons</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/join-us/join-us.component.html</context>
       <context context-type="linenumber">16</context>
@@ -892,7 +882,7 @@ how it works</source>
   </trans-unit>
   <trans-unit id="84704762737ebc4e6aa269c3a61e6d2ed2bb746e" datatype="html">
     <source>How to become a vendor</source>
-    <target>ሻጭ እንዴት መሆን እንደሚቻል</target>
+    <target>Comment devenir vendeur</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/join-us/join-us.component.html</context>
       <context context-type="linenumber">17</context>
@@ -900,7 +890,7 @@ how it works</source>
   </trans-unit>
   <trans-unit id="c487e7576cbff7f62b0f64fe0e27c7895141541b" datatype="html">
     <source>It is EASY, FAST and AFFORDABLE</source>
-    <target>ቀላል ፈጣን እና ተመጣጣኝ</target>
+    <target>C'est facile, rapide et abordable</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/join-us/join-us.component.html</context>
       <context context-type="linenumber">25</context>
@@ -911,10 +901,7 @@ how it works</source>
               our customers desire and are as committed to providing an exemplary level of customer service and quality
               as we are. It also means having access to thousands of customers across Addis Ababa without having to
               spend more money on rental space, marketing, and more</source>
-    <target> ከእንብላ ጋር ሻጭ አጋር መሆን ማለት እርስዎ ያንን አገልግሎት ይሰጣሉ ማለት ነው
-              ደንበኞቻችን የሚፈልጉት እና ምሳሌያዊ የደንበኛ አገልግሎትን እና የጥራት ደረጃን ለማሳየት ነው
-              እኛ እንደሆንን በተጨማሪም ይህ ማለት በአዲስ አበባ ዙሪያ በሺዎች የሚቆጠሩ ደንበኞችን ማግኘት ማለት ነው
-              በኪራይ ቦታ በገቢያ እና በሌሎች ላይ ብዙ ገንዘብ ያጠፋሉ</target>
+    <target>Être un partenaire fournisseur d'Inibla signifie que vous fournissez un service que nos clients désirent et que vous vous engagez à fournir un niveau de service à la clientèle et de qualité exemplaire que nous le sommes. Cela signifie également avoir accès à des milliers de clients à Addis-Abeba sans avoir à dépenser plus d'argent en location, en marketing et plus encore.</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/join-us/join-us.component.html</context>
       <context context-type="linenumber">26</context>
@@ -922,7 +909,7 @@ how it works</source>
   </trans-unit>
   <trans-unit id="db3b9e84b3aa835979baaef76dbb1838910e7288" datatype="html">
     <source>1.Apply to be a partner</source>
-    <target>1.አጋር ለመሆን ያመልክቱ</target>
+    <target>1. Postuler pour devenir partenaire</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/join-us/join-us.component.html</context>
       <context context-type="linenumber">41</context>
@@ -931,7 +918,7 @@ how it works</source>
   <trans-unit id="9cafeb2064826ac20f28365bb26c769eb84a6fd7" datatype="html">
     <source>Use the form provided to tell us more about your business so we can begin the
           process</source>
-    <target>ሂደቱን እንድንጀምር ስለንግድዎ በበለጠ እንዲነግሩን የቀረበውን ቅጽ ይጠቀሙ</target>
+    <target>Utilisez le formulaire fourni pour nous en dire plus sur votre entreprise afin que nous puissions commencer le processus</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/join-us/join-us.component.html</context>
       <context context-type="linenumber">42</context>
@@ -939,7 +926,7 @@ how it works</source>
   </trans-unit>
   <trans-unit id="9cbc682bad71a14d319d086a268224c8a5eac9ad" datatype="html">
     <source>2.We start the evaluation</source>
-    <target>2.ግምገማውን እንጀምራለን</target>
+    <target>2.Nous commençons l'évaluation</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/join-us/join-us.component.html</context>
       <context context-type="linenumber">46</context>
@@ -948,7 +935,7 @@ how it works</source>
   <trans-unit id="32e308003393b2884e452c877a61019fe975ecce" datatype="html">
     <source>We will evaluate your application and send someone to shop at your premise as
           a regular customer</source>
-    <target>ማመልከቻዎን እንገመግመዋለን እንዲሁም አንድ ሰው እንደ መደበኛ ደንበኛዎ እርሶ ሱቅ ውስጥ እንልካለን</target>
+    <target>Nous évaluerons votre candidature et enverrons quelqu'un faire des emplettes chez vous en tant que client régulier</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/join-us/join-us.component.html</context>
       <context context-type="linenumber">47</context>
@@ -956,7 +943,7 @@ how it works</source>
   </trans-unit>
   <trans-unit id="3dc75f26815d01ac6d675c6b8a159f377e5cb7f4" datatype="html">
     <source>3.We will contact you</source>
-    <target>3.እናገኝዎታለን</target>
+    <target>3.Nous vous contacterons</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/join-us/join-us.component.html</context>
       <context context-type="linenumber">51</context>
@@ -965,7 +952,7 @@ how it works</source>
   <trans-unit id="bff742ce4926fe10cfc2c954bd71a9f615cf92a9" datatype="html">
     <source>If the evaluation steps are completed successfully, we will reach out to you with
           the next steps</source>
-    <target>የግምገማው ደረጃዎች በተሳካ ሁኔታ ከተጠናቀቁ በሚቀጥሉት ደረጃዎች እርስዎን እናገናኝዎታለን</target>
+    <target>Si les étapes d'évaluation sont réussies, nous vous contacterons avec les prochaines étapes</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/join-us/join-us.component.html</context>
       <context context-type="linenumber">52</context>
@@ -978,7 +965,7 @@ joining as driver<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
     </source>
     <target>
       <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>
-እንደ ሾፌር ይቀላቀሉ      <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+rejoindre en tant que chauffeur<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
     </target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/join-us/join-us.component.html</context>
@@ -987,7 +974,7 @@ joining as driver<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
   </trans-unit>
   <trans-unit id="adfd4afba3526805ddc306717c07d6f6688178b5" datatype="html">
     <source>Join our fleet of riders</source>
-    <target>ሾፌር መርከበኞች ጋር ይቀላቀሉ</target>
+    <target>Rejoignez notre flotte de cavaliers</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/join-us/join-us.component.html</context>
       <context context-type="linenumber">72</context>
@@ -995,7 +982,7 @@ joining as driver<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
   </trans-unit>
   <trans-unit id="5b4e9987ec19a22e7e8e31393b117166d090d6f8" datatype="html">
     <source>How to become a driver</source>
-    <target>እንዴት ሹፌር መሆን እችላለው</target>
+    <target>Comment devenir cavalier</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/join-us/join-us.component.html</context>
       <context context-type="linenumber">73</context>
@@ -1003,7 +990,7 @@ joining as driver<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
   </trans-unit>
   <trans-unit id="d711b624b7a7cdc0d62c94c6b7cdfa5f4acb4ab8" datatype="html">
     <source>1. Apply to be a rider</source>
-    <target>1. እንደ አሽከርካሪ ያመልክቱ</target>
+    <target>1. Postuler pour devenir cavalier</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/join-us/join-us.component.html</context>
       <context context-type="linenumber">81</context>
@@ -1011,7 +998,7 @@ joining as driver<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
   </trans-unit>
   <trans-unit id="9e43800cc03cf7748aca9ca2c6b400b7b986c7d9" datatype="html">
     <source>2. Verification of rider</source>
-    <target>2. የነጂው ማረጋገጫ</target>
+    <target>2. vérification des coureurs</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/join-us/join-us.component.html</context>
       <context context-type="linenumber">82</context>
@@ -1019,7 +1006,7 @@ joining as driver<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
   </trans-unit>
   <trans-unit id="82e666e6cd0f96bfcf33164c9e9484d9d1d4e728" datatype="html">
     <source>3. We will contact you</source>
-    <target>3. እናገኝዎታለን</target>
+    <target>3. Nous vous contacterons</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/join-us/join-us.component.html</context>
       <context context-type="linenumber">83</context>
@@ -1030,8 +1017,7 @@ joining as driver<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
               verification and onboarding process can join our fleet. All our riders are pre-scanned, trained, have a
               valid driving license and their bikes meet inibla
               standards. Our riders enjoy incentives and riders&apos; loyalty program based on their performance.</source>
-    <target>የእኛ ማረጋገጫ ሰጭ ሂደት ብቻ የሚያልፉ ነጂዎች ብቻ ናቸው የሰለጠኑ የማሽከርከር መንጃ ፍቃድ ያላቸው እና ብስክሌቶቻቸው በ
-        እንብላ መስፈርቶችን የሚያሟሉ ሲሆን አሠልጣኞቻችን በአፈፃፀማቸው ላይ ተመስርተው ማበረታቻዎች ፕሮግራም ያደርጋሉ</target>
+    <target>Seuls les coureurs ayant réussi notre processus de vérification et d'intégration peuvent rejoindre notre flotte. Tous nos coureurs sont pré-scannés, formés, ont un permis de conduire valide et leurs vélos répondent aux normes inibla. Nos coureurs bénéficient d'incitations et d'un programme de fidélisation des coureurs en fonction de leurs performances.</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/join-us/join-us.component.html</context>
       <context context-type="linenumber">84</context>
@@ -1039,10 +1025,18 @@ joining as driver<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
   </trans-unit>
   <trans-unit id="respo" datatype="html">
     <source>2.&nbsp;Responsibilities of AAAIT PLC</source>
-    <target>2.&nbsp;Responsibilities of AAAIT PLC</target>
+    <target>2.&nbsp;Responsabilités de AAAIT PLC</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/serviceterms.component.html</context>
       <context context-type="linenumber">59</context>
+    </context-group>
+  </trans-unit>
+  <trans-unit id="language" datatype="html">
+    <source>Language</source>
+    <target>Langue</target>
+    <context-group purpose="location">
+      <context context-type="sourcefile">src/components/header.component.html</context>
+      <context context-type="linenumber">37</context>
     </context-group>
   </trans-unit>
 </body>

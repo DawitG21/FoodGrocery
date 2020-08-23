@@ -32,12 +32,11 @@
              </li>
            </ul>
            <ul class="navbar-nav ml-auto">
-             <ng-container *ngFor="let lang of languages"> <!-- *ngIf="lang.code !== localeId" -->
-               <li class="nav-item @@about-active">
-                 <a class="nav-link effect-3" (click)="gotoLocale(lang)">
-                  <span class="fa fa-flag"></span>&nbsp;{{lang.label}}</a>
-               </li>
-             </ng-container>
+             <li class="nav-item">
+               <p class="nav-link effect-3 contact-p cursor-pointer" (click)="openModal(localeModal)">
+                 <span class="fa fa-globe"></span>&nbsp;<a i18n="@@language">Language</a>
+               </p>
+             </li>
            </ul>
          </div>
        </nav>
@@ -45,3 +44,23 @@
    </header>
  </div>
  <!--/header-->
+
+ <ng-template #localeModal let-modal>
+   <div class="modal-header">
+     <h4 class="modal-title" id="modal-basic-title">Select Language</h4>
+   </div>
+   <div class="localeModal">
+     <div class="modal-body">
+       <ul class="navbar-nav ml-auto">
+         <ng-container *ngFor="let lang of languages">
+           <li class="nav-item @@about-active">
+             <a class="nav-link effect-3" (click)="gotoLocale(lang)">
+               <span class="fas fa-globe"></span>&nbsp;{{lang.label}}</a>
+           </li>
+           <div class="modal-footer">
+           </div>
+         </ng-container>
+       </ul>
+     </div>
+   </div>
+ </ng-template>

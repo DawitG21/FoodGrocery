@@ -13,7 +13,7 @@
         "sourceLocale": "en-US",
         "locales": {
           "am": "src/locale/messages.am.xlf",
-          "fr": "src/locale/messages.fr.xlf"          
+          "fr": "src/locale/messages.fr.xlf"
         }
       },
       "architect": {

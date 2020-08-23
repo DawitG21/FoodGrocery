@@ -59,12 +59,27 @@ header {
   fill: #ffffff;
 }
 
-/* .white {
-  color: #ffffff;
-} */
-
 .mt-locale {
   margin-top: 12px;
+}
+
+.modal-header {
+  background-color: orange;
+}
+
+.modal-title {
+  color: white;
+}
+
+.localeModal {
+  border: 1px solid orange;
+  /*  border-right: none; */
+  border-top: none;
+  padding: 10px;
+  height: 33vh;
+  overflow-y: auto;
+  border-bottom-left-radius: calc(0.3rem - 1px);
+  border-bottom-right-radius: calc(0.3rem - 1px);
 }
 
 @media only screen and (max-width: 991px) {
@@ -72,6 +87,12 @@ header {
   header.active {
     background: rgba(0, 0, 0, 0.7) !important;
     height: 45vh;
+  }
+
+  .localeModal {
+    height: auto;
+    overflow-y: auto;
+    border-right: 1px solid orange;
   }
 
   .mt-locale {
