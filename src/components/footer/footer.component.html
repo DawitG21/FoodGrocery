@@ -9,19 +9,7 @@
             <p class="contact-para3" i18n>Office 601, 6th Floor, Ras Dashen Building, Addis Ababa, Ethiopia</p>
             <a href="mailto:onboard@inibla.com">
               <p class="contact-mail mt-2">onboard@inibla.com</p>
-            </a>
-            <!-- <a routerLink="/" class="white" (click)="topFunction()" i18n>English</a>&nbsp;|
-            <a routerLink="/about" class="white" (click)="topFunction()" i18n>Amharic</a>&nbsp;| -->
-            <ng-template ngFor let-lang [ngForOf]="languages">
-              <span *ngIf="lang.code !== localeId">
-                <a href="/inibla/{{lang.code}}/" class="white mt-2 social-link telegram"
-                  (click)="topFunction();cacheLocalePreference()">
-                  <span class="fa fa-flag"></span>&nbsp;{{lang.label}}</a>
-              </span>
-             <!--  <span *ngIf="lang.code == localeId">
-                <a href="/inibla/{{lang.code}}/" class="white" (click)="topFunction();cacheLocalePreference()">{{lang.label}}</a>
-              </span> -->
-            </ng-template>
+            </a>          
           </div>
 
           <div class="column">
