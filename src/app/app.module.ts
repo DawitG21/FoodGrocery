@@ -12,6 +12,7 @@ import { ServicetermsComponent } from '../components/serviceterms/serviceterms.c
 import { FooterComponent } from '../components/footer/footer.component';
 import { APP_BASE_HREF, PlatformLocation } from '@angular/common';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { DataProvider } from 'src/providers/data.service';
 
 @NgModule({
   declarations: [
@@ -32,11 +33,12 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   ],
   // providers: [{ provide: LOCALE_ID, useValue: 'am' }],
   providers: [
-    {
+    {      
       provide: APP_BASE_HREF,
       useFactory: (s: PlatformLocation) => s.getBaseHrefFromDOM(),
       deps: [PlatformLocation]
-    }
+    },
+    DataProvider
   ],
   bootstrap: [AppComponent]
 })

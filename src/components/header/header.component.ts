@@ -2,8 +2,9 @@ import { Component, OnInit, Inject, LOCALE_ID } from '@angular/core';
 import { APP_BASE_HREF } from '@angular/common';
 import { LocaleService } from 'src/providers/locale.service';
 import { DebugService } from 'src/shared/debug.service';
+import { DataProvider } from 'src/providers/data.service';
 import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
-// import { ILanguage } from 'src/interface/ILanguage';
+
 
 @Component({
   selector: 'app-header',
@@ -13,13 +14,7 @@ import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
 
 export class HeaderComponent implements OnInit {
 
-  // languages: ILanguage;
-  languages = [
-    { code: 'en-US', label: 'English' },
-    { code: 'am', label: 'Amharic' },
-    { code: 'fr', label: 'French' }
-  ];
-
+  languages = [];
   storedlocale: string;
   closeResult: string;
 
@@ -28,10 +23,11 @@ export class HeaderComponent implements OnInit {
     @Inject(APP_BASE_HREF) private _baseHref: string,
     private _localService: LocaleService,
     private _consoleService: DebugService,
-    private modalService: NgbModal
+    private modalService: NgbModal,
+    private _data: DataProvider
   ) {
     this.storedlocale = localStorage.getItem('locale');
-    // this.languages = new ILanguage();
+    this.languages = this._data.languages;
   }
 
   ngOnInit() {
